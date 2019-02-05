@@ -1,3 +1,14 @@
+
+/*top of index page*/
+.backGroundImage {
+    background-position: 50% 10%;
+    background-image: url('../images/LOGO.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    
+
+}
 /*mouse over dropdown menu*/
 .dropbtn {
     background-color: #4CAF50;

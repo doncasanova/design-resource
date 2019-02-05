@@ -3,8 +3,9 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\assets\\images"
+    "\\assets\\images",
+    "\\css"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\css\\main.css",
   "PreviewInSolutionExplorer": false
 }

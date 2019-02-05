@@ -311,11 +311,11 @@ strong {
 
 /* Header Style 1*/
 #header-style-1 {
-  background-image: url("../img/bg/hero-1-bg.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  background-position: contain;
+    background-image: url("https://66.media.tumblr.com/a4ff43ab23b9d9aaa7130a422ffa021d/tumblr_o48lyrZhnE1ul9f3po1_400.gif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-position: contain;
 }
 
 #header-style-1 .header-title {
