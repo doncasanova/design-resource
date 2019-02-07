@@ -4,8 +4,13 @@
     "\\assets",
     "\\assets\\css",
     "\\assets\\images",
-    "\\css"
+    "\\css",
+    "\\js"
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\index.html",
+=======
+  "SelectedNode": "\\assets\\images\\902744.ico",
+>>>>>>> aa606aa9eab004e30266f0b646ac56d1dbc69334
   "PreviewInSolutionExplorer": false
 }
