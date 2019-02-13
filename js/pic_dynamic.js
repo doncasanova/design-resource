@@ -28,7 +28,7 @@ function addNavBar() {
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                                 <i class="fa fa-bars"></i>
                             </button>
-                            <div class="collapse navbar-collapse justify-content-end bg-dark " id="navbarCollapse">
+                            <div class="collapse navbar-collapse justify-content-end bg-primary " id="navbarCollapse">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
                                         <a class="nav-link" href="index.html">Home</a>
