@@ -20,12 +20,11 @@ $(document).on("click", ".imageStyle", function (image) {
     addImage();
 });
 
-
+//<a class="navbar-brand" href="index.html"><img src="${image[0]}" alt=""></a>
 function addNavBar() {
     console.log("inside instruction load")
     $(".loadNavBar").prepend(`  <nav class="navbar navbar-expand-lg navbar-light bg-faded">
                         <div class="container">
-                            <a class="navbar-brand" href="index.html"><img src="${image[0]}" alt=""></a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                                 <i class="fa fa-bars"></i>
                             </button>
@@ -35,18 +34,23 @@ function addNavBar() {
                                         <a class="nav-link" href="index.html">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="about.html">About</a>
+                                        <a class="nav-link" href="company.html">Company</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+                                        <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Engineering &#x2193</a>
                                         <div class="dropdown-menu dropdown-content">
                                             <a class="dropdown-item" href="#">Product Design</a>
                                             <a class="dropdown-item" href="#">Tooling</a>
-                                            <a class="dropdown-item" href="#">Staffing</a>
                                         </div>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact</a>
+                                        <a class="nav-link" href="staffing.html">Staffing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact</a>
                                     </li>
                                 </ul>
                             </div>
