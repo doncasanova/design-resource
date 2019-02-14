@@ -33,18 +33,29 @@ function addNavBar() {
                                     <li class="nav-item">
                                         <a class="nav-link" href="index.html">Home</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="company.html">Company</a>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company &#x2193</a>
+                                        <div class="dropdown-menu dropdown-content">
+                                            <a class="dropdown-item" href="company.html">About DRI</a>
+                                            <a class="dropdown-item" href="company.html">careers</a>
+                                        </div>
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Engineering &#x2193</a>
                                         <div class="dropdown-menu dropdown-content">
-                                            <a class="dropdown-item" href="#">Product Design</a>
-                                            <a class="dropdown-item" href="#">Tooling</a>
+                                            <a class="dropdown-item" href="engineering.html">Manufacturing Engineering</a>
+                                            <a class="dropdown-item" href="engineering.html">Documentation</a>
+                                            <a class="dropdown-item" href="engineering.html">Electrical</a>
+                                            <a class="dropdown-item" href="engineering.html">Product Development Engineering</a>
+                                            <a class="dropdown-item" href="engineering.html">Prototyping</a>
                                         </div>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="staffing.html">Staffing</a>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Staffing &#x2193</a>
+                                        <div class="dropdown-menu dropdown-content">
+                                            <a class="dropdown-item" href="staffing.html">Core employee staffing (short term)</a>
+                                            <a class="dropdown-item" href="staffing.html">Traditional contract staffing</a>
+                                        </div>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="portfolio.html">Portfolio</a>
