@@ -69,4 +69,8 @@
     opacity: 1;
 }
 
+.grad {
+    background-image: linear-gradient(to right, blue, light blue);
+}
+
 
