@@ -22,13 +22,12 @@ $(document).on("click", ".imageStyle", function (image) {
 
 //<a class="navbar-brand" href="index.html"><img src="${image[0]}" alt=""></a>
 function addNavBar() {
-    console.log("inside instruction load")
-    $(".loadNavBar").prepend(`  <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+    $(".loadNavBar").prepend(`  <nav class="navbar navbar-expand-lg bg-faded navBarStyle">
                         <div class="container">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                                 <i class="fa fa-bars"></i>
                             </button>
-                            <div class="collapse navbar-collapse justify-content-end bg-primary " id="navbarCollapse">
+                            <div class="collapse navbar-collapse justify-content-end " id="navbarCollapse">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
                                         <a class="nav-link" href="index.html">Home</a>
@@ -43,7 +42,7 @@ function addNavBar() {
                                     <li class="nav-item dropdown">
                                         <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Engineering &#x2193</a>
                                         <div class="dropdown-menu dropdown-content">
-                                            <a class="dropdown-item" href="engineering.html">Manufacturing Engineering</a>
+                                            <a id="manuFacEngi" class="dropdown-item" href="engineering.html">Manufacturing Engineering</a>
                                             <a class="dropdown-item" href="engineering.html">Documentation</a>
                                             <a class="dropdown-item" href="engineering.html">Electrical</a>
                                             <a class="dropdown-item" href="engineering.html">Product Development Engineering</a>

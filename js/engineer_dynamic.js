@@ -14,10 +14,13 @@ function addImage() {
 
 }
 
-$(document).on("click", ".imageStyle", function (image) {
-   
-    $(".insertImagesHere").empty();
-    addImage();
+$(document).ready("click", "#manuFacEngi", function () {
+    console.log("hello out there");
+    $(document).ready(function () {
+        console.log("ready!");
+        manufactureEngineer();
+    });
+    
 });
 
 //<a class="navbar-brand" href="index.html"><img src="${image[0]}" alt=""></a>
@@ -26,3 +29,7 @@ function addHeaderTitle() {
     $(".engineeringLoadHeader").append(`  <h2 class="heading-title text-center animated fadeInDown">Engineering page</h2>`);
 }
 
+function manufactureEngineer() {
+   
+    $(".engineeringLoadHeader").append(`  <h2 class="heading-title text-center animated fadeInDown">Manufacturing Engineering page</h2>`);
+}
