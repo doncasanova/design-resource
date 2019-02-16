@@ -2,6 +2,7 @@ var image = ["https://media0.giphy.com/media/270TRfaKb7axy/giphy.gif?cid=3640f60
 var path = "./images/";
 
 addHeaderTitle();
+manufactureEngineer();
 addImage();
 function addImage() {
     image.sort(function (a, b) { return 0.5 - Math.random() });
@@ -31,5 +32,5 @@ function addHeaderTitle() {
 
 function manufactureEngineer() {
    
-    $(".engineeringLoadHeader").append(`  <h2 class="heading-title text-center animated fadeInDown">Manufacturing Engineering page</h2>`);
+    $(".manfEngineeringLoadHeader").append(`  <h2 class="heading-title text-center animated fadeInDown">Manufacturing Engineering Page</h2>`);
 }

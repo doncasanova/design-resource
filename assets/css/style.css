@@ -9,7 +9,10 @@
 
 /*navbar*/
 .navBarStyle {
-    background-color: blue !important;
+    background-color: blue;
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: darkblue;
 }
 /*mouse over dropdown menu*/
 .dropbtn {
@@ -70,7 +73,15 @@
 }
 
 .grad {
-    background-image: linear-gradient(to right, blue, light blue);
+    background-image: linear-gradient(to right, lightblue, blue);
+}
+
+.gradLin {
+    background-image: linear-gradient(blue, lightblue);
+}
+
+.gradBott {
+    background-image: linear-gradient(to bottom right, blue, lightblue);
 }
 
 
