@@ -84,4 +84,12 @@
     background-image: linear-gradient(to bottom right, blue, lightblue);
 }
 
+.triangle {
+    width: 30%;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-right: 200px solid white;
+    background-color: aqua
+}
+
 
