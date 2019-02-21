@@ -13,6 +13,21 @@
     border-top-style: solid;
     border-width: 2px;
     border-color: darkblue;
+    font-size:large;
+}
+.div-centered {
+    text-align: left;
+    margin: auto;
+    width: 70%;
+}
+.bottomM {
+    margin-bottom:10%;
+}
+.topM {
+    margin-top: 10%;
+}
+.dropDownMargin {
+    margin-top: -2px;
 }
 /*mouse over dropdown menu*/
 .dropbtn {
@@ -90,6 +105,16 @@
     border-top: 200px solid transparent;
     border-right: 200px solid white;
     background-color: aqua
+}
+
+.thumbnail:hover {
+    position: relative;
+    top: -25px;
+    left: -35px;
+    width: 700px;
+    height: auto;
+    display: block;
+    z-index: 999;
 }
 
 

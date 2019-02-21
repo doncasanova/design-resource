@@ -28,20 +28,13 @@ function addNavBar() {
                                 <i class="fa fa-bars"></i>
                             </button>
                             <div class="collapse navbar-collapse justify-content-center " id="navbarCollapse">
-                                <ul class="navbar-nav">
+                                <ul class="navbar-nav ">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index.html">Home</a>
+                                        <a class="nav-link mr-4 p-3" href="index.html">Home</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company &#x2193</a>
-                                        <div class="dropdown-menu dropdown-content">
-                                            <a class="dropdown-item" href="about-dir.html">About DRI</a>
-                                            <a class="dropdown-item" href="careers.html">Careers</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Engineering &#x2193</a>
-                                        <div class="dropdown-menu dropdown-content">
+                                        <a class="nav-link  mr-4 p-3" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Engineering &#x2193</a>
+                                        <div class="dropdown-menu dropdown-content dropDownMargin">
                                             <a id="manuFacEngi" class="dropdown-item" href="manufacturing-engineering.html">Manufacturing Engineering</a>
                                             <a class="dropdown-item" href="documentation.html">Documentation</a>
                                             <a class="dropdown-item" href="electrical.html">Electrical</a>
@@ -50,21 +43,29 @@ function addNavBar() {
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Staffing &#x2193</a>
-                                        <div class="dropdown-menu dropdown-content">
+                                        <a class="nav-link  mr-4 p-3" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Staffing &#x2193</a>
+                                        <div class="dropdown-menu dropdown-content dropDownMargin">
                                             <a class="dropdown-item" href="core-employee-staffing.html">Core employee staffing (short term)</a>
                                             <a class="dropdown-item" href="traditional-contract-staffing.html">Traditional contract staffing</a>
                                         </div>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link  mr-4 p-3" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company &#x2193</a>
+                                        <div class="dropdown-menu dropdown-content dropDownMargin">
+                                            <a class="dropdown-item" href="about-dir.html">About DRI</a>
+                                            <a class="dropdown-item" href="careers.html">Careers</a>
+                                        </div>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contact.html">Contact</a>
+                                        <a class="nav-link  mr-4 p-3" href="contact.html">Contact</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </nav>`);
+
+    //<li class="nav-item">
+    //    <a class="nav-link" href="portfolio.html">Portfolio</a>
+    //</li>
 }
 
