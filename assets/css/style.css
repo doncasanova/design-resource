@@ -117,4 +117,9 @@
     z-index: 999;
 }
 
+#google-map {
+    padding: 0;
+    height: 400px;
+}
+
 
