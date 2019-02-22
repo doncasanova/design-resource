@@ -1,12 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\docs"
+    "\\assets",
+    "\\assets\\css",
+    "\\css",
+    "\\docs",
+    "\\img",
+    "\\img\\images"
   ],
-<<<<<<< HEAD
-  "SelectedNode": "\\docs\\about[163].docx",
-=======
-  "SelectedNode": "\\index.html",
->>>>>>> a406c0647f3cd68458f7b31be8a06510367ed84a
+  "SelectedNode": "\\docs\\webpage.docx",
   "PreviewInSolutionExplorer": false
 }
