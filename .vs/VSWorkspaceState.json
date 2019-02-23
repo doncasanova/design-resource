@@ -5,8 +5,9 @@
     "\\assets\\css",
     "\\css",
     "\\img",
-    "\\img\\images"
+    "\\img\\images",
+    "\\js"
   ],
-  "SelectedNode": "\\assets\\css\\style.css",
+  "SelectedNode": "\\js\\pic_dynamic.js",
   "PreviewInSolutionExplorer": false
 }

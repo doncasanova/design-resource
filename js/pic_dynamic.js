@@ -33,7 +33,7 @@ function addNavBar() {
                                         <a class="nav-link mr-4 p-3" href="index.html">Home</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link  mr-4 p-3" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Engineering &#x2193</a>
+                                        <a class="nav-link  mr-4 p-3" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Engineering</a>
                                         <div class="dropdown-menu dropdown-content dropDownMargin">
                                             <a id="manuFacEngi" class="dropdown-item" href="manufacturing-engineering.html">Manufacturing Engineering</a>
                                             <a class="dropdown-item" href="documentation.html">Documentation</a>
@@ -43,14 +43,14 @@ function addNavBar() {
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link  mr-4 p-3" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Staffing &#x2193</a>
+                                        <a class="nav-link  mr-4 p-3" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Staffing</a>
                                         <div class="dropdown-menu dropdown-content dropDownMargin">
                                             <a class="dropdown-item" href="core-employee-staffing.html">Core employee staffing (short term)</a>
                                             <a class="dropdown-item" href="traditional-contract-staffing.html">Traditional contract staffing</a>
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link  mr-4 p-3" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company &#x2193</a>
+                                        <a class="nav-link  mr-4 p-3" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company</a>
                                         <div class="dropdown-menu dropdown-content dropDownMargin">
                                             <a class="dropdown-item" href="about-dir.html">About DRI</a>
                                             <a class="dropdown-item" href="careers.html">Careers</a>
@@ -58,6 +58,12 @@ function addNavBar() {
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link  mr-4 p-3" href="contact.html">Contact</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  mr-4 p-3" href="tel:(763)785-8984"><i class="fa fa-phone icons cyan-color contact-info-icon"></i> (763)785.8984</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  mr-4 p-3" href="mailto:info@driengineering.com"><i class="fa fa-envelope-o icons cyan-color contact-info-icon"></i>  info@driengineering.com</a>
                                     </li>
                                 </ul>
                             </div>
@@ -68,4 +74,4 @@ function addNavBar() {
     //    <a class="nav-link" href="portfolio.html">Portfolio</a>
     //</li>
 }
-
+ //&#x2193
