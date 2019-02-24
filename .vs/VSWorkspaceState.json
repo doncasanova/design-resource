@@ -3,11 +3,12 @@
     "",
     "\\assets",
     "\\assets\\css",
+    "\\assets\\images",
     "\\css",
     "\\img",
     "\\img\\images",
     "\\js"
   ],
-  "SelectedNode": "\\js\\pic_dynamic.js",
+  "SelectedNode": "\\documentation.html",
   "PreviewInSolutionExplorer": false
 }

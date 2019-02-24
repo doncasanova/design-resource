@@ -59,12 +59,6 @@ function addNavBar() {
                                     <li class="nav-item">
                                         <a class="nav-link  mr-4 p-3" href="contact.html">Contact</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link  mr-4 p-3" href="tel:(763)785-8984"><i class="fa fa-phone icons cyan-color contact-info-icon"></i> (763)785.8984</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link  mr-4 p-3" href="mailto:info@driengineering.com"><i class="fa fa-envelope-o icons cyan-color contact-info-icon"></i>  info@driengineering.com</a>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -75,3 +69,11 @@ function addNavBar() {
     //</li>
 }
  //&#x2193
+
+                                    
+                                    //<li class="nav-item">
+                                    //    <a class="nav-link  mr-4 p-3" href="tel:(763)785-8984"><i class="fa fa-phone icons cyan-color contact-info-icon"></i> (763)785.8984</a>
+                                    //</li>
+                                    //<li class="nav-item">
+                                    //    <a class="nav-link  mr-4 p-3" href="mailto:info@driengineering.com"><i class="fa fa-envelope-o icons cyan-color contact-info-icon"></i>  info@driengineering.com</a>
+                                    //</li>

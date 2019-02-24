@@ -4,14 +4,27 @@ Author: UIdeck
 Website: https://uideck.com
 More Info: https://uideck.com/products/helium-ui-kit
 */
+
+.fontType {
+    font: Calibri;
+    color: white;
+    font-size:medium;
+}
+.fontType2 {
+    font: Calibri;
+    color: dimgrey;
+    font-size: medium;
+}
+
+
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,700|Montserrat:700");
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
-  color: #444;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  letter-spacing: 0px;
-  margin-top: 0;
+    color: #444;
+    font-family: " Montserrat", Calibri;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin-top: 0;
 }
 
 h1 {
@@ -256,15 +269,18 @@ strong {
 .page-header-title {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: lightgray;
 }
 
-.page-header-title .heading-title {
-  color: #444;
-  font-size: 36px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  font-weight: 400;
-}
+    .page-header-title .heading-title {
+        color: darkgray;
+        font-size: 30px;
+        letter-spacing: 3px;
+        font-style: italic;
+        font-family: Calibri,
+        /*text-transform: uppercase;*/
+        font-weight: 400;
+    }
 
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
@@ -311,7 +327,7 @@ strong {
 
 /* Header Style 1*/
 #header-style-1 {
-    background-image: url("https://66.media.tumblr.com/a4ff43ab23b9d9aaa7130a422ffa021d/tumblr_o48lyrZhnE1ul9f3po1_400.gif");
+    background-image: url("../img/images/picture1.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
