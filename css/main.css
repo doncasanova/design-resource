@@ -4,7 +4,10 @@ Author: UIdeck
 Website: https://uideck.com
 More Info: https://uideck.com/products/helium-ui-kit
 */
-
+.test {
+    background-color:black;
+    vertical-align:middle;
+}
 .positionBorder {
     margin-top:-5%;
     margin-left: -2.5%;
@@ -278,21 +281,25 @@ strong {
   margin-bottom: 80px;
 }
 
-.page-header-title {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: lightgray;
+.secondHeader {
+    background-color: #22436b;
 }
 
-    .page-header-title .heading-title {
-        color: darkgray;
-        font-size: 30px;
-        letter-spacing: 3px;
-        font-style: italic;
-        font-family: Calibri,
-        /*text-transform: uppercase;*/
-        font-weight: 400;
-    }
+.heading-title {
+    padding-bottom: 5%;
+    /*background-color: lightgray;*/
+}
+
+.page-header-title .heading-title {
+    margin-top: 5%;
+    color: darkgray;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-style: italic;
+    font-family: Calibri,
+    /*text-transform: uppercase;*/
+    font-weight: 400;
+}
 
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
@@ -4623,6 +4630,8 @@ ul.nav-tabs li a {
 
 /* End Tabs & Accordions */
 @media (min-width: 768px) and (max-width: 1024px) {
+
+
   .fact-title {
     font-size: 14px;
   }
@@ -4741,9 +4750,12 @@ ul.nav-tabs li a {
 }
 
 @media (max-width: 640px) {
-  .page-header-title .heading-title {
-    font-size: 24px;
-  }
+    .page-header-title .heading-title {
+        vertical-align: middle;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 24px;
+    }
   .navbar-light .navbar-toggler {
     margin: 24px;
     border: 0;
@@ -4866,9 +4878,11 @@ ul.nav-tabs li a {
   .top-menu .right {
     float: left;
   }
-  .page-header-title .heading-title {
-    font-size: 16px;
-  }
+    .page-header-title .heading-title {
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
   .title-head {
     font-size: 20px;
   }

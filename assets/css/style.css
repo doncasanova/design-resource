@@ -2,9 +2,6 @@
 body {
     font: Calibri !important;
 }
-
-
-
 /*top of index page*/
 .backGroundImage {
     background-position: 50% 10%;
@@ -12,9 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.headerRight {
-    background-color: lightblue !important;
-}
+
 #logoStyle {
    margin: 20% !important;
 }
@@ -130,11 +125,18 @@ body {
 }
 
 .triangle {
-    width: 30%;
-    height: 0;
-    border-top: 200px solid transparent;
-    border-right: 200px solid white;
-    background-color: aqua
+    clip-path: polygon( 
+    5% 0, /* left top */
+    100% 0, /* right top */
+    100% 100%, /* right bottom */
+    0 100% /* left bottom */
+    );
+    background-color: lightgray
+}
+
+.heading-button {
+
+    background-color: lightgray
 }
 
 .thumbnail:hover {
