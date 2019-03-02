@@ -6,8 +6,10 @@
     "\\assets\\images",
     "\\css",
     "\\docs",
-    "\\img"
+    "\\img",
+    "\\img\\images",
+    "\\js"
   ],
-  "SelectedNode": "\\traditional-contract-staffing.html",
+  "SelectedNode": "\\img\\images\\manufacture.png",
   "PreviewInSolutionExplorer": false
 }

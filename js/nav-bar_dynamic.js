@@ -31,34 +31,34 @@ function addNavBar() {
                             <div class="collapse navbar-collapse justify-content-center " id="navbarCollapse">
                                 <ul class="navbar-nav ">
                                     <li class="nav-item">
-                                        <a class="nav-link mr-4 p-3" href="index.html">Home</a>
+                                        <a class="nav-link display-3 " href="index.html"><p class="navText">HOME</p></a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link  mr-4 p-3" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Engineering</a>
+                                        <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Engineering</p></a>
                                         <div class="dropdown-menu dropdown-content dropDownMargin">
-                                            <a id="manuFacEngi" class="dropdown-item" href="manufacturing-engineering.html">Manufacturing Engineering</a>
-                                            <a class="dropdown-item" href="documentation.html">Documentation</a>
-                                            <a class="dropdown-item" href="electrical.html">Electrical</a>
-                                            <a class="dropdown-item" href="product-development-engineering.html">Product Development Engineering</a>
-                                            <a class="dropdown-item" href="prototyping.html">Prototyping</a>
+                                            <a id="manuFacEngi" class="dropdown-item" href="manufacturing-engineering.html"><p class="navTextDropDown">Manufacturing Engineering</p></a>
+                                            <a class="dropdown-item" href="documentation.html"><p class="navTextDropDown">Documentation</p></a>
+                                            <a class="dropdown-item" href="electrical.html"><p class="navTextDropDown">Electrical</p></a>
+                                            <a class="dropdown-item" href="product-development-engineering.html"><p class="navTextDropDown">Product Development Engineering</p></a>
+                                            <a class="dropdown-item" href="prototyping.html"><p class="navTextDropDown"></p></a>
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link  mr-4 p-3" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Staffing</a>
+                                        <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Staffing</p></a>
                                         <div class="dropdown-menu dropdown-content dropDownMargin">
-                                            <a class="dropdown-item" href="core-employee-staffing.html">Core employee staffing (short term)</a>
-                                            <a class="dropdown-item" href="traditional-contract-staffing.html">Traditional contract staffing</a>
+                                            <a class="dropdown-item" href="core-employee-staffing.html"><p class="navTextDropDown">Core employee staffing (short term)</p></a>
+                                            <a class="dropdown-item" href="traditional-contract-staffing.html"><p class="navTextDropDown">Traditional contract staffing</p></a>
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link  mr-4 p-3" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company</a>
+                                        <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Company</p></a>
                                         <div class="dropdown-menu dropdown-content dropDownMargin">
-                                            <a class="dropdown-item" href="about-dir.html">About DRI</a>
-                                            <a class="dropdown-item" href="careers.html">Careers</a>
+                                            <a class="dropdown-item" href="about-dir.html"><p class="navTextDropDown">About DRI</p></a>
+                                            <a class="dropdown-item" href="careers.html"><p class="navTextDropDown">Careers</p></a>
                                         </div>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link  mr-4 p-3" href="contact.html">Contact</a>
+                                        <a class="nav-link  mr-4 p-3" href="contact.html"><p class="navText">Contact</p></a>
                                     </li>
                                 </ul>
                             </div>
@@ -71,15 +71,15 @@ function addNavBar() {
 }
 
 function addHeader() {
-    $(".loadHeader").prepend(`  <div class="col-5 col-md-3 text-center">
-                <img class="mt-3" src="./img/images/logo.png" alt="DR Logo" style="width:50%;height:70%;">
+    $(".loadHeader").prepend(`  <div class="col-5 col-md-3 text-right">
+                <img class=" mr-2 " src="./img/images/logo.png" alt="DR Logo" style="width:60%;height:100%;">
             </div>
             <div class=" col-7 col-md-9 page-header-title row triangle">
-                <div class="col-9 col-md-9">
+                <div class="col-8 col-md-8">
                     <h3 class="heading-title animated fadeInDown text-center" style="font-family:Calibri">Value driven. Quality sustained.</h3>
                 </div>
-                <div class="col-3 col-md-3 ">
-                    <a href="contact.html" class="btn btn-danger my-4">Contact &#x27a4</a>
+                <div class="col-4 col-md-4">
+                    <a href="contact.html" class="btn btn-danger my-4 ">Contact &#x27a4</a>
                 </div>
             </div>`);
 }

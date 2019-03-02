@@ -218,19 +218,25 @@ strong {
 }
 
 .bg-danger {
-  color: #fff;
-  background: #ec7160;
-  padding: 3px 4px;
+    color: #c0504d;
+    background: #c0504d;
+    padding: 3px 4px;
+}
+
+.bg-secondary {
+    color: #c0504d;
+    background: #c0504d;
+    padding: 3px 4px;
 }
 
 /* / End Typography */
 .demo_img {
-  background: #f7f7f7;
-  margin-bottom: 70px;
-  margin-left: 1%;
-  margin-right: 1%;
-  padding-bottom: 20px;
-  text-align: center;
+    background: #f7f7f7;
+    margin-bottom: 70px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .demo_img img {
@@ -281,24 +287,24 @@ strong {
   margin-bottom: 80px;
 }
 
-.secondHeader {
-    background-color: #22436b;
-}
-
 .heading-title {
     padding-bottom: 5%;
-    /*background-color: lightgray;*/
 }
 
 .page-header-title .heading-title {
     margin-top: 5%;
-    color: darkgray;
+    color: #676463;
     font-size: 30px;
     letter-spacing: 3px;
-    font-style: italic;
-    font-family: Calibri,
-    /*text-transform: uppercase;*/
-    font-weight: 400;
+    font-family: Calibri;
+}
+.secondHeader h2 {
+    background-color: #22436b;
+    color: #676463;
+    font-size: 50px;
+    letter-spacing: 3px;
+    padding: 5%;
+    font-family: Calibri;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -327,7 +333,7 @@ strong {
 }
 
 .header-title .text-primary {
-  color: #EB586F !important;
+  color: #984806 ;
 }
 
 .header-content header-title span {
@@ -1074,6 +1080,18 @@ footer .menu li a:hover {
   border: 2px solid #74a44a;
 }
 
+.btn-secondary-filled, .btn-secondary-filled:active, .btn-secondary-filled:focus {
+    color: #fff;
+    background: #87c056;
+    border: 2px solid #87c056;
+}
+
+    .btn-secondary-filled:hover {
+        color: black;
+        background: #74a44a;
+        border: 2px solid #74a44a;
+    }
+
 /* End Success Button */
 /* Info Button */
 .btn-info, .btn-info:active, .btn-info:focus {
@@ -1129,21 +1147,21 @@ footer .menu li a:hover {
 /* End Warning Button */
 /* Danger Button */
 .btn-danger, .btn-danger:active, .btn-danger:focus {
-  color: #ec7160;
-  border: 2px solid #ec7160;
-  background: transparent;
+    color: #c0504d;
+    border: 2px solid #c0504d;
+    background: transparent;
 }
 
-.btn-danger:hover {
-  color: #fff;
-  background: #ec7160;
-  border: 2px solid #ec7160;
-}
+    .btn-danger:hover {
+        color: #fff;
+        background: #c0504d;
+        border: 2px solid #c0504d;
+    }
 
 .btn-danger-filled, .btn-danger-filled:active, .btn-danger-filled:focus {
-  color: #fff;
-  background: #ec7160;
-  border: 2px solid #ec7160;
+    color: #fff;
+    background: #c0504d;
+    border: 2px solid #c0504d;
 }
 
 .btn-danger-filled:hover {
@@ -1151,8 +1169,34 @@ footer .menu li a:hover {
   background: #cd6254;
   border: 2px solid #cd6254;
 }
-
 /* End Danger Button */
+
+/* secondary Button */
+.btn-secondary, .btn-secondary:active, .btn-secondary:focus {
+    color: #17375e;
+    border: 2px solid #17375e;
+    background: #dce6f2;
+}
+
+    .btn-secondary:hover {
+        color: #dce6f2;
+        background: #17375e;
+        border: 2px solid #dce6f2;
+    }
+
+.btn-secondary-filled, .btn-secondary-filled:active, .btn-secondary-filled:focus {
+    color: #dce6f2;
+    background: #17375e;
+    border: 2px solid #dce6f2;
+}
+
+    .btn-secondary-filled:hover {
+        color: #17375e;
+        background: #dce6f2;
+        border: 2px solid #dce6f2;
+    }
+
+/* End secondary Button */
 /* Paginations */
 .pagination .btn {
   font-size: 14px;
@@ -3102,7 +3146,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .text-primary {
-  color: #EB586F !important;
+  color: #984806 !important;
 }
 
 /* Carousels */
@@ -4755,6 +4799,20 @@ ul.nav-tabs li a {
         padding-top: 10px;
         padding-bottom: 10px;
         font-size: 24px;
+    }
+    .secondHeader h2 {
+        background-color: #22436b;
+        color: #676463;
+        font-size: 40px;
+        letter-spacing: 3px;
+        padding: 5%;
+        font-family: Calibri;
+    }
+    .btn-danger {
+        padding: 2px 4px;
+        font-size: 70%;
+        line-height: 1;
+        margin-right:30px
     }
   .navbar-light .navbar-toggler {
     margin: 24px;
