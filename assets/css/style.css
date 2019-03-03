@@ -13,21 +13,6 @@ body {
 #logoStyle {
    margin: 20% !important;
 }
-
-.flexbox-container {
-    display: -ms-flex;
-    display: -webkit-flex;
-    display: flex;
-}
-
-.flexbox-container > div {
-    width: 50%;
-    padding: 10px;
-}
-
-.flexbox-container > div:first-child {
-    margin-right: 20px;
-}
 .navText {
     font-size: 18px;
     color: darkgray;
@@ -121,18 +106,6 @@ body {
 
 .fadein {
     opacity: 1;
-}
-
-.grad {
-    background-image: linear-gradient(to right, lightblue, blue);
-}
-
-.gradLin {
-    background-image: linear-gradient(blue, lightblue);
-}
-
-.gradBott {
-    background-image: linear-gradient(to bottom right, blue, lightblue);
 }
 
 .triangle {

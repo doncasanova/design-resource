@@ -83,4 +83,9 @@ function addHeader() {
                 </div>
             </div>`);
 }
- 
+
+function removeClass() {
+    if ($(window).width() < 640) {
+        $('#indexMain').removeClass('flex-containerOuter1');
+    } 
+};

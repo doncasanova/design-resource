@@ -9,29 +9,84 @@ More Info: https://uideck.com/products/helium-ui-kit
     vertical-align:middle;
 }
 .positionBorder {
-    margin-top:-5%;
+    margin-top: -5%;
     margin-left: -2.5%;
     width: 105%;
 }
 .paddingBottom {
-    padding-bottom: 21%;
+    padding-bottom: 0%;
 }
 .paddingBottom2 {
-    padding-bottom: 16%;
+    padding-bottom: 0%;
+}
+.flex-container1 {
+    position: relative;
+    top: -50px;
+    z-index: -1;
+    display: flex;
+    height: 400px;
+    border: medium;
+    border-color: black;
+    justify-content: center;
+}
+.flex-container2 {
+    position: relative;
+    top: -103px;
+    z-index: -1;
+    display: flex;
+    height: 400px;
+    border: medium;
+    border-color: black;
+    justify-content: center;
 }
 
+.flex-container3 {
+    position: relative;
+    top: -113px;
+    z-index: -1;
+    display: flex;
+    height: 400px;
+    border: medium;
+    border-color: black;
+    justify-content: center;
+}
+
+.flex-containerOuter1 {
+    display: flex;
+    flex-direction: row;
+    height: 900px;
+    border: medium;
+    border-color: black;
+    background-color: transparent;
+}
+
+.footerStuff {
+    position: absolute;
+    bottom:0;
+}
 .fontType {
     font: Calibri;
     color: white;
-    font-size:medium;
+    font-size: medium;
 }
 .fontType2 {
     font: Calibri;
     color: dimgrey;
     font-size:medium;
 }
-
-
+.headerContent {
+    position:relative;
+    top:20px;
+}
+.descripContent {
+    position:relative;
+    top:140px;
+}
+.buttonRow {
+    position: absolute;
+    top: 540px;
+    right: 125px;
+}
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,700|Montserrat:700");
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
@@ -299,7 +354,11 @@ strong {
     font-family: Calibri;
 }
 .secondHeader h2 {
-    background-color: #22436b;
+    background-image: url("../img/images/picture1.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-position: contain;
     color: #676463;
     font-size: 50px;
     letter-spacing: 3px;
@@ -4794,6 +4853,7 @@ ul.nav-tabs li a {
 }
 
 @media (max-width: 640px) {
+   
     .page-header-title .heading-title {
         vertical-align: middle;
         padding-top: 10px;
@@ -4801,7 +4861,11 @@ ul.nav-tabs li a {
         font-size: 24px;
     }
     .secondHeader h2 {
-        background-color: #22436b;
+        background-image: url("../img/images/picture1.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        background-position: contain;
         color: #676463;
         font-size: 40px;
         letter-spacing: 3px;
