@@ -133,9 +133,10 @@ body {
     z-index: 999;
 }
 
-#google-map {
-    padding: 0;
-    height: 400px;
+/* Always set the map height explicitly to define the size of the div
+        * element that contains the map. */
+#map {
+    height: 100%;
 }
 
 
