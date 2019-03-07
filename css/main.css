@@ -8,6 +8,11 @@ More Info: https://uideck.com/products/helium-ui-kit
     background-color:black;
     vertical-align:middle;
 }
+.containerText {
+    padding-top: 55px;
+    position:relative;
+    top: 30px
+}
 .positionBorder {
     margin-top: -5%;
     margin-left: -2.5%;
@@ -70,9 +75,12 @@ More Info: https://uideck.com/products/helium-ui-kit
     font-size: medium;
 }
 .fontType2 {
+    position:relative;
+    top: 10px;
     font: Calibri;
     color: dimgrey;
     font-size:medium;
+
 }
 .headerContent {
     position:relative;
@@ -4733,7 +4741,13 @@ ul.nav-tabs li a {
 
 /* End Tabs & Accordions */
 @media (min-width: 768px) and (max-width: 1024px) {
-
+    .fontType2 {
+        position: relative;
+        top: 20px;
+        font: Calibri;
+        color: dimgrey;
+        font-size: medium;
+    }
 
   .fact-title {
     font-size: 14px;
@@ -4853,6 +4867,18 @@ ul.nav-tabs li a {
 }
 
 @media (max-width: 640px) {
+    .fontType2 {
+        position: relative;
+        top: 15px;
+        font: Calibri;
+        color: dimgrey;
+        font-size: medium;
+    }
+    .containerText {
+        padding-top: 50px;
+        position: relative;
+        top: 30px
+    }
    
     .page-header-title .heading-title {
         vertical-align: middle;
