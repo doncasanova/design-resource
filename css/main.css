@@ -4,6 +4,16 @@ Author: UIdeck
 Website: https://uideck.com
 More Info: https://uideck.com/products/helium-ui-kit
 */
+
+img.logoImage {
+    position: relative;
+    left: 70px;
+    display: block;
+    max-width: 230px;
+    max-height: 95px;
+    width: auto;
+    height: auto;
+}
 .test {
     background-color:black;
     vertical-align:middle;
@@ -5014,6 +5024,21 @@ ul.nav-tabs li a {
 }
 
 @media (max-width: 480px) {
+img.logoImage {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    display: block;
+    max-width: 150px;
+    max-height: 47px;
+    width: auto;
+    height: auto;
+}
+
+    .text-center {
+      font-size:small
+    }
+
   .navbar-brand img {
     max-width: 120px;
   }

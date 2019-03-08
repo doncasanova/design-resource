@@ -139,14 +139,6 @@ body {
     height: 100%;
 }
 
-img.logoImage {
-    position:relative;
-    left:70px;
-    display: block;
-    max-width: 230px;
-    max-height: 95px;
-    width: auto;
-    height: auto;
-}
+
 
 
