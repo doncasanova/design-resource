@@ -11,7 +11,7 @@ body {
 }
 
 #logoStyle {
-   margin: 20% !important;
+    margin: 20% !important;
 }
 .navText {
     font-size: 18px;
@@ -137,6 +137,16 @@ body {
         * element that contains the map. */
 #map {
     height: 100%;
+}
+
+img.logoImage {
+    position:relative;
+    left:70px;
+    display: block;
+    max-width: 230px;
+    max-height: 95px;
+    width: auto;
+    height: auto;
 }
 
 

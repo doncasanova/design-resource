@@ -72,7 +72,7 @@ function addNavBar() {
 
 function addHeader() {
     $(".loadHeader").prepend(`  <div class="col-5 col-md-3 text-center">
-                <img class="mt-3" src="./img/images/logo.png" alt="DR Logo" style="width:50%;height:70%;">
+                <img class="mt-3 logoImage" src="./img/images/logo.png" alt="DR Logo">
             </div>
             <div class=" col-7 col-md-9 page-header-title row triangle">
                 <div class="col-9 col-md-9">
