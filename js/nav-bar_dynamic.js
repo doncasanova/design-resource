@@ -76,7 +76,7 @@ function addHeader() {
             </div>
             <div class=" col-7 col-md-9 page-header-title row triangle">
                 <div class="col-8 col-md-8">
-                    <h3 class="heading-title animated fadeInDown text-center" style="font-family:Calibri">Value driven. Quality sustained.</h3>
+                    <h3 class="heading-title text-center" style="font-family:Calibri">Value driven. Quality sustained.</h3>
                 </div>
                 <div class="col-4 col-md-4">
                     <a href="contact.html" class="btn btn-danger my-4 ">Contact &#x27a4</a>
