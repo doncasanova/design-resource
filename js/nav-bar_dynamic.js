@@ -4,6 +4,8 @@ var path = "./images/";
 addHeader();
 addNavBar();
 addImage();
+addFooter();
+
 function addImage() {
     image.sort(function (a, b) { return 0.5 - Math.random() });
     for (i = 0; i < image.length; i++) {
@@ -64,10 +66,6 @@ function addNavBar() {
                             </div>
                         </div>
                     </nav>`);
-
-    //<li class="nav-item">
-    //    <a class="nav-link" href="portfolio.html">Portfolio</a>
-    //</li>
 }
 
 function addHeader() {
@@ -84,8 +82,64 @@ function addHeader() {
             </div>`);
 }
 
+function addFooter() {
+    $(".loadFooter").prepend(`  <nav class="navbar navbar-expand-lg bg-faded navBarStyle">
+                        <div class="container">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-center " id="navbarCollapse">
+                                <ul class="navbar-nav ">
+                                    <li class="nav-item">
+                                        <a class="nav-link display-3 " href="index.html"><p class="navText">HOME</p></a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link click" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Engineering</p></a>
+                                        
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link click" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Staffing</p></a>
+                                        
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link click" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Company</p></a>
+                                        
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link  mr-4 p-3" href="contact.html"><p class="navText">Contact</p></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>`);
+}
+
+$(document).ready(function () {
+    $(".click").click(function () {
+        $('html, body').animate({
+            scrollTop: $(".dropdown").offset().top
+        }, 2000);
+        //fireMouseOver();
+    });
+   
+});
+
+function fireMouseOver() {
+    $(".dropdown").hover(function () {
+    $(this).css("background-color", "yellow");
+}, function () {
+    $(this).css("background-color", "pink");
+});
+}
+
+
+
+
+
+
 function removeClass() {
     if ($(window).width() < 640) {
         $('#indexMain').removeClass('flex-containerOuter1');
     } 
-};
+}
+

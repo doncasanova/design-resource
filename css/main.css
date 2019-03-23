@@ -5,6 +5,10 @@ Website: https://uideck.com
 More Info: https://uideck.com/products/helium-ui-kit
 */
 
+
+
+
+
 img.logoImage {
     position: relative;
     left: 70px;
@@ -36,20 +40,20 @@ img.logoImage {
 }
 .flex-container1 {
     position: relative;
-    top: -50px;
+    top: -100px;
     z-index: -1;
     display: flex;
-    height: 400px;
+    height: 340px;
     border: medium;
     border-color: black;
     justify-content: center;
 }
 .flex-container2 {
     position: relative;
-    top: -103px;
+    top: -100px;
     z-index: -1;
     display: flex;
-    height: 400px;
+    height: 340px;
     border: medium;
     border-color: black;
     justify-content: center;
@@ -57,10 +61,10 @@ img.logoImage {
 
 .flex-container3 {
     position: relative;
-    top: -113px;
+    top: -100px;
     z-index: -1;
     display: flex;
-    height: 400px;
+    height: 340px;
     border: medium;
     border-color: black;
     justify-content: center;
@@ -82,11 +86,18 @@ img.logoImage {
 .fontType {
     font: Calibri;
     color: white;
-    font-size: medium;
+    font-size: large;
+}
+.fontType3 {
+    font: Calibri !important;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.0;
 }
 .fontType2 {
     position:relative;
-    top: 10px;
+    top: 40px;
     font: Calibri;
     color: dimgrey;
     font-size:medium;
@@ -102,8 +113,9 @@ img.logoImage {
 }
 .buttonRow {
     position: absolute;
-    top: 540px;
-    right: 125px;
+    top: 475px;
+    right: 90px;
+    font-size: 25px !important;
 }
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,700|Montserrat:700");
 /* Typography */

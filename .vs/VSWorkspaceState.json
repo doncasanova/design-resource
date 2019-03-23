@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\assets",
+    "\\assets\\css",
+    "\\css",
+    "\\img",
+    "\\img\\images",
     "\\js"
   ],
-  "SelectedNode": "\\js\\pic_dynamic.js",
   "PreviewInSolutionExplorer": false
 }
