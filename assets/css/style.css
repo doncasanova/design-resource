@@ -26,7 +26,11 @@ body {
     text-transform: uppercase;
 }
 
-
+.footerStyle {
+    background-color: #333333;
+    font-size: large;
+    color: black;
+}
 /**navbar**/
 
 .navBarStyle {
@@ -175,4 +179,25 @@ img.softwareLogo5 {
     margin-top: -15px;
     z-index: 1;
 }
+.fontType {
+    font: Calibri !important;
+    color: white;
+    font-size: 25px;
+    margin-left:65px;
+}
 
+.fontType3 {
+    font: Calibri !important;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.0;
+}
+
+.fontType2 {
+    position: relative;
+    top: 40px;
+    font: Calibri !important;
+    color: dimgrey;
+    font-size: medium;
+}

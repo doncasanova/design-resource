@@ -83,26 +83,6 @@ img.logoImage {
     position: absolute;
     bottom:0;
 }
-.fontType {
-    font: Calibri;
-    color: white;
-    font-size: large;
-}
-.fontType3 {
-    font: Calibri !important;
-    color: white;
-    font-size: 50px;
-    font-weight: bold;
-    line-height: 1.0;
-}
-.fontType2 {
-    position:relative;
-    top: 40px;
-    font: Calibri;
-    color: dimgrey;
-    font-size:medium;
-
-}
 .headerContent {
     position:relative;
     top:20px;
@@ -121,7 +101,7 @@ img.logoImage {
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
     color: #444;
-    font-family: " Montserrat", Calibri;
+    font-family: Calibri;
     font-weight: 700;
     letter-spacing: 0px;
     margin-top: 0;
@@ -168,7 +148,7 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  font-family: "Rubik", sans-serif;
+  font-family: Calibri;
   font-weight: 400;
   font-size: 14px;
   line-height: 25px;
@@ -379,9 +359,11 @@ strong {
 .page-header-title .heading-title {
     margin-top: 5%;
     color: #676463;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 3px;
-    font-family: Calibri;
+    font-family: Calibri(body);
+    font-style: italic;
+    font-weight: footerStyle;
 }
 .secondHeader h2 {
     background-image: url("../img/images/picture1.jpg");
@@ -442,10 +424,8 @@ strong {
 /* Header Style 1*/
 #header-style-1 {
     background-image: url("../img/images/picture1.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
     background-size: cover;
-    background-position: contain;
+    font: Calibri !important;
 }
 
 #header-style-1 .header-title {
@@ -560,7 +540,7 @@ footer .social a {
 }
 
 footer {
-  background: #282828;
+  background-color: transparent;
   color: #7C7C7C;
 }
 
@@ -691,7 +671,8 @@ footer #copyright .nav-inline {
 }
 
 .light-footer {
-  background: #f7f7f7;
+  background-color: transparent;
+
 }
 
 .light-footer p {
@@ -3373,7 +3354,7 @@ nav#menu span.fa.fa-bars:hover {
   font-weight: 400;
   margin-bottom: 30px;
   font-size: 16px;
-  font-family: "Rubik", sans-serif;
+  font-family: Calibri;
 }
 
 #carousel-area .carousel-item .carousel-caption h3 {
@@ -5202,7 +5183,7 @@ img.logoImage {
 body {
   color: #444;
   background: #ffffff;
-  font-family: "Rubik", sans-serif;
+  font-family: Calibri;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;

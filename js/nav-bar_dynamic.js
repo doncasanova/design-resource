@@ -83,35 +83,48 @@ function addHeader() {
 }
 
 function addFooter() {
-    $(".loadFooter").prepend(`  <nav class="navbar navbar-expand-lg bg-faded navBarStyle">
-                        <div class="container">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                            <div class="collapse navbar-collapse justify-content-center " id="navbarCollapse">
-                                <ul class="navbar-nav ">
-                                    <li class="nav-item">
-                                        <a class="nav-link display-3 " href="index.html"><p class="navText">HOME</p></a>
+    $(".loadFooter").prepend(`  <footer class="light-footer">
+                        <div class="row justify-content-center">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a class="" href="index.html"><p class="navText">HOME</p></a>
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link click" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Engineering</p></a>
+                                    <li class="list-inline-item">
+                                        <p class="navText">|</p>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class=" click" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Engineering</p></a>
                                         
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link click" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Staffing</p></a>
+                                    <li class="list-inline-item">
+                                        <p class="navText">|</p>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class=" click" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Staffing</p></a>
                                         
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link click" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Company</p></a>
+                                    <li class="list-inline-item">
+                                        <p class="navText">|</p>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class=" click" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Company</p></a>
                                         
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link  mr-4 p-3" href="contact.html"><p class="navText">Contact</p></a>
+                                    <li class="list-inline-item">
+                                        <p class="navText">|</p>
                                     </li>
-                                </ul>
-                            </div>
+                                    <li class="list-inline-item">
+                                        <a class=""  mr-4 p-3" href="contact.html"><p class="navText">Contact</p></a>
+                                    </li>
+                                    <div class="row justify-content-center">
+                                        <p class=" text-dark">&#169; 2019 DESIGN RESOURCE, INC.</p>
+                                    </div>
+                               </ul>
+                            
+                        
                         </div>
-                    </nav>`);
+                        
+                    </footer>`);
 }
 
 $(document).ready(function () {
