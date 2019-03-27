@@ -145,11 +145,6 @@ function fireMouseOver() {
 });
 }
 
-
-
-
-
-
 function removeClass() {
     if ($(window).width() < 640) {
         $('#indexMain').removeClass('flex-containerOuter1');

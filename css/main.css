@@ -3037,7 +3037,8 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .text-primary {
-  color: #984806 !important;
+    color: #984806 !important;
+    font-size: 35px !important;
 }
 
 /* Carousels */

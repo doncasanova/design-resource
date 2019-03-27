@@ -46,6 +46,12 @@ body {
     margin: auto;
     width: 70%;
 }
+p.div-centered {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 200px;
+    width: 70%;
+}
 .bottomM {
     margin-bottom:10%;
 }
@@ -126,16 +132,19 @@ body {
 
     background-color: #f1f1f1
 }
-
-.thumbnail:hover {
-    position: relative;
-    top: -25px;
-    left: -35px;
-    width: 700px;
-    height: auto;
-    display: block;
-    z-index: 999;
+.zoom {
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
 }
+
+    .zoom:hover {
+        z-index: 999;
+        display: block;
+        transform: scale(2.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
 
 /* Always set the map height explicitly to define the size of the div
         * element that contains the map. */
