@@ -49,7 +49,7 @@ function addNavBar() {
                                     <li class="nav-item dropdown">
                                         <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Staffing</p></a>
                                         <div class="dropdown-menu dropdown-content dropDownMargin">
-                                            <a class="dropdown-item" href="core-employee-staffing.html"><p class="navTextDropDown">Core employee staffing (short term)</p></a>
+                                            <a class="dropdown-item" href="core-employee-staffing.html"><p class="navTextDropDown">Core Staffing (short term)</p></a>
                                             <a class="dropdown-item" href="traditional-contract-staffing.html"><p class="navTextDropDown">Traditional contract staffing</p></a>
                                         </div>
                                     </li>
