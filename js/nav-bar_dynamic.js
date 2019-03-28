@@ -84,7 +84,7 @@ function addHeader() {
 
 function addFooter() {
     $(".loadFooter").prepend(`  <footer class="light-footer">
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center footerCSS ">
                                 <ul class="list-inline">
                                     <li class="list-inline-item">
                                         <a class="" href="index.html"><p class="navText">HOME</p></a>
@@ -137,6 +137,8 @@ $(document).ready(function () {
    
 });
 
+//----------------------------------------------------------------
+ //test functions
 function fireMouseOver() {
     $(".dropdown").hover(function () {
     $(this).css("background-color", "yellow");
@@ -150,4 +152,4 @@ function removeClass() {
         $('#indexMain').removeClass('flex-containerOuter1');
     } 
 }
-
+//------------------------------------------------------------------

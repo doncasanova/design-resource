@@ -666,12 +666,12 @@ footer #copyright .nav-inline {
 }
 
 .light-footer {
-  background-color: transparent;
 
+    background-image: url(../img/images/footer-pic.png);
 }
 
 .light-footer p {
-  color: #444;
+  color: white;
 }
 
 .dark-footer {
