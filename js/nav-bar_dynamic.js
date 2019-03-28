@@ -51,6 +51,7 @@ function addNavBar() {
                                         <div class="dropdown-menu dropdown-content dropDownMargin">
                                             <a class="dropdown-item" href="core-employee-staffing.html"><p class="navTextDropDown">Core Staffing (short term)</p></a>
                                             <a class="dropdown-item" href="traditional-contract-staffing.html"><p class="navTextDropDown">Traditional contract staffing</p></a>
+                                            <a class="dropdown-item" href="outsourcing.html"><p class="navTextDropDown">Outsource</p></a>
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown">
