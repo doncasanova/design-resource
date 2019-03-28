@@ -237,3 +237,10 @@ img.softwareLogo5 {
     top: 50px;
     right: 50px;
 }
+
+img.prodDevImg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
