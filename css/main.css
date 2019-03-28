@@ -418,7 +418,7 @@ strong {
 
 /* Header Style 1*/
 #header-style-1 {
-    background-image: url("../img/images/picture1.jpg");
+    background-image: url("../img/images/cap_assy.gif");
     background-size: cover;
     font: Calibri !important;
 }
@@ -3040,6 +3040,10 @@ nav#menu span.fa.fa-bars:hover {
     color: #984806 !important;
     font-size: 35px !important;
 }
+.text-primary2 {
+    color: #984806 !important;
+    font-size: 20px !important;
+}
 
 /* Carousels */
 .owl-theme .owl-controls .owl-page span {
@@ -5016,10 +5020,6 @@ html, body {
   height: 100%;
   margin: 0;
   overflow-x: hidden;
-}
-
-img {
-  width: 100%;
 }
 
 .page-header {

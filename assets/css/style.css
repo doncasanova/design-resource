@@ -3,6 +3,13 @@ body {
     font: Calibri !important;
 }
 /*top of index page*/
+.backGroundImageIndex {
+    background-position: 50% 10%;
+    background-image: url('./images/logo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*all other pages*/
 .backGroundImage {
     background-position: 50% 10%;
     background-image: url('./images/logo.png');
@@ -41,9 +48,9 @@ body {
     font-size: large;
     color: darkgray;
 }
-.div-centered {
+h4.div-centered {
     text-align: left;
-    margin: auto;
+    margin-left: 150px;
     width: 70%;
 }
 p.div-centered {
@@ -144,7 +151,22 @@ p.div-centered {
         display: block;
         transform: scale(2.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     }
-
+img.electricalImg {
+    position:relative;
+    right: 200px;
+    bottom: 50px;
+    display: block;
+    width: 150%;
+    height: auto;
+}
+img.electricalImg2 {
+    position: relative;
+    right: 200px;
+    bottom: 50px;
+    display: block;
+    width: 150%;
+    height: auto;
+}
 
 /* Always set the map height explicitly to define the size of the div
         * element that contains the map. */
@@ -209,4 +231,9 @@ img.softwareLogo5 {
     font: Calibri !important;
     color: dimgrey;
     font-size: medium;
+}
+.languagesCSS {
+    position: relative;
+    top: 50px;
+    right: 50px;
 }
