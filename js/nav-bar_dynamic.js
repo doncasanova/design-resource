@@ -117,7 +117,7 @@ function addFooter() {
                                         <a class=""  mr-4 p-3" href="contact.html"><p class="navText">Contact</p></a>
                                     </li>
                                     <div class="row justify-content-center">
-                                        <p class=" text-dark">&#169; 2019 DESIGN RESOURCE, INC.</p>
+                                        <p class=" text-light">&#169; 2019 DESIGN RESOURCE, INC.</p>
                                     </div>
                                </ul>
                             
