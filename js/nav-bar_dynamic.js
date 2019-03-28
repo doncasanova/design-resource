@@ -39,9 +39,10 @@ function addNavBar() {
                                         <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Engineering</p></a>
                                         <div class="dropdown-menu dropdown-content dropDownMargin">
                                             <a id="manuFacEngi" class="dropdown-item" href="manufacturing-engineering.html"><p class="navTextDropDown">Manufacturing Engineering</p></a>
-                                            <a class="dropdown-item" href="documentation.html"><p class="navTextDropDown">Documentation</p></a>
-                                            <a class="dropdown-item" href="electrical.html"><p class="navTextDropDown">Electrical</p></a>
+                                            <a class="dropdown-item" href="documentation.html"><p class="navTextDropDown">Drafting and Documentation</p></a>
+                                            <a class="dropdown-item" href="electrical.html"><p class="navTextDropDown">Electrical and Software</p></a>
                                             <a class="dropdown-item" href="product-development-engineering.html"><p class="navTextDropDown">Product Development Engineering</p></a>
+                                            <a class="dropdown-item" href="controls-saftey.html"><p class="navTextDropDown">Controls and Saftey</p></a>
                                             <a class="dropdown-item" href="prototyping.html"><p class="navTextDropDown"></p></a>
                                         </div>
                                     </li>
@@ -84,7 +85,7 @@ function addHeader() {
 
 function addFooter() {
     $(".loadFooter").prepend(`  <footer class="light-footer">
-                        <div class="row justify-content-center footerCSS ">
+                        <div class="row justify-content-center footerCSS">
                                 <ul class="list-inline">
                                     <li class="list-inline-item">
                                         <a class="" href="index.html"><p class="navText">HOME</p></a>
@@ -120,8 +121,6 @@ function addFooter() {
                                         <p class=" text-light">&#169; 2019 DESIGN RESOURCE, INC.</p>
                                     </div>
                                </ul>
-                            
-                        
                         </div>
                         
                     </footer>`);

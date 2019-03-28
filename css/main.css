@@ -668,6 +668,8 @@ footer #copyright .nav-inline {
 .light-footer {
 
     background-image: url(../img/images/footer-pic.png);
+    border-top: 50px;
+    border-color: dimgrey;
 }
 
 .light-footer p {

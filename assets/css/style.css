@@ -245,6 +245,6 @@ img.prodDevImg {
     height: auto;
 }
 .footerCSS {
-    border-top: 10px;
-    border-color: dimgray;
+    border-top-color: dimgray!important;
+    border-top: 10px!important;
 }
