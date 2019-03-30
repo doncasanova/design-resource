@@ -1308,6 +1308,23 @@ footer .widget-title {
   color: #fff;
 }
 
+.dropup-menu {
+    padding: 10px 0px;
+    border: 0;
+    border-radius: 0;
+}
+
+.dropup-item {
+    padding: 10px 22px;
+    font-size: 14px;
+    width: 170px;
+}
+
+    .dropup-item:focus, .dropup-item:hover {
+        background: #EB586F;
+        color: #fff;
+    }
+
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
   color: #EB586F;
 }

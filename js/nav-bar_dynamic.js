@@ -95,36 +95,36 @@ function addFooter() {
                                     <li class="list-inline-item">
                                         <p class="navText">|</p>
                                     </li>
-                                    <li class="nav-item dropdown">
+                                    <li class="nav-item dropup">
                                         <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Engineering</p></a>
-                                        <div class="dropdown-menu dropdown-content dropDownMargin">
-                                            <a id="manuFacEngi" class="dropdown-item" href="manufacturing-engineering.html"><p class="navTextDropDown">Manufacturing Engineering</p></a>
-                                            <a class="dropdown-item" href="documentation.html"><p class="navTextDropDown">Drafting and Documentation</p></a>
-                                            <a class="dropdown-item" href="electrical.html"><p class="navTextDropDown">Electrical and Software</p></a>
-                                            <a class="dropdown-item" href="product-development-engineering.html"><p class="navTextDropDown">Product Development <br /> Engineering</p></a>
-                                            <a class="dropdown-item" href="controls-saftey.html"><p class="navTextDropDown">Controls and Saftey</p></a>
-                                            <a class="dropdown-item" href="prototyping.html"><p class="navTextDropDown"></p></a>
+                                        <div class="dropdown-menu dropup-content dropUpMargin">
+                                            <a id="manuFacEngi" class="dropdown-item" href="manufacturing-engineering.html"><p class="navTextDropUp">Manufacturing Engineering</p></a>
+                                            <a class="dropdown-item" href="documentation.html"><p class="navTextDropUp">Drafting and Documentation</p></a>
+                                            <a class="dropdown-item" href="electrical.html"><p class="navTextDropUp">Electrical and Software</p></a>
+                                            <a class="dropdown-item" href="product-development-engineering.html"><p class="navTextDropUp">Product Development <br /> Engineering</p></a>
+                                            <a class="dropdown-item" href="controls-saftey.html"><p class="navTextDropUp">Controls and Saftey</p></a>
+                                            <a class="dropdown-item" href="prototyping.html"><p class="navTextDropUp"></p></a>
                                         </div>
                                     </li>
                                     <li class="list-inline-item">
                                         <p class="navText">|</p>
                                     </li>
-                                    <li class="nav-item dropdown">
+                                    <li class="nav-item dropup">
                                         <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Staffing</p></a>
-                                        <div class="dropdown-menu dropdown-content dropDownMargin">
-                                            <a class="dropdown-item" href="core-employee-staffing.html"><p class="navTextDropDown">Core Staffing (short term)</p></a>
-                                            <a class="dropdown-item" href="traditional-contract-staffing.html"><p class="navTextDropDown">Traditional contract staffing</p></a>
-                                            <a class="dropdown-item" href="outsourcing.html"><p class="navTextDropDown">Outsource</p></a>
+                                        <div class="dropdown-menu dropup-content dropUpMargin">
+                                            <a class="dropdown-item" href="core-employee-staffing.html"><p class="navTextDropUp">Core Staffing (short term)</p></a>
+                                            <a class="dropdown-item" href="traditional-contract-staffing.html"><p class="navTextDropUp">Traditional contract staffing</p></a>
+                                            <a class="dropdown-item" href="outsourcing.html"><p class="navTextDropUp">Outsource</p></a>
                                         </div>
                                     </li>
                                     <li class="list-inline-item">
                                         <p class="navText">|</p>
                                     </li>
-                                    <li class="nav-item dropdown">
+                                    <li class="nav-item dropup">
                                         <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Company</p></a>
-                                        <div class="dropdown-menu dropdown-content dropDownMargin">
-                                            <a class="dropdown-item" href="about-dir.html"><p class="navTextDropDown">About DRI</p></a>
-                                            <a class="dropdown-item" href="careers.html"><p class="navTextDropDown">Careers</p></a>
+                                        <div class="dropdown-menu dropup-content dropUpMargin">
+                                            <a class="dropdown-item" href="about-dir.html"><p class="navTextDropUp">About DRI</p></a>
+                                            <a class="dropdown-item" href="careers.html"><p class="navTextDropUp">Careers</p></a>
                                         </div>
                                     </li>
                                     <li class="list-inline-item">
