@@ -6,12 +6,12 @@ More Info: https://uideck.com/products/helium-ui-kit
 */
 img.logoImage {
     position: relative;
-    left: 70px;
+    left: 25px;
     display: block;
-    max-width: 230px;
-    max-height: 95px;
+    /*max-width: 230px;*/
+    height: 140px;
     width: auto;
-    height: auto;
+    /*height: auto;*/
 }
 .test {
     background-color:black;
@@ -20,25 +20,20 @@ img.logoImage {
 .containerText {
     padding-top: 55px;
     position:relative;
-    top: 30px
+    top: 30px;
+    font-size: 30px
 }
 .positionBorder {
     margin-top: -5%;
     margin-left: -2.5%;
     width: 105%;
 }
-.paddingBottom {
-    padding-bottom: 0%;
-}
-.paddingBottom2 {
-    padding-bottom: 0%;
-}
 .flex-container1 {
     position: relative;
     top: -100px;
     z-index: -1;
     display: flex;
-    height: 340px;
+    height: 415px;
     border: medium;
     border-color: black;
     justify-content: center;
@@ -48,7 +43,7 @@ img.logoImage {
     top: -100px;
     z-index: -1;
     display: flex;
-    height: 340px;
+    height: 415px;
     border: medium;
     border-color: black;
     justify-content: center;
@@ -59,7 +54,7 @@ img.logoImage {
     top: -100px;
     z-index: -1;
     display: flex;
-    height: 340px;
+    height: 415px;
     border: medium;
     border-color: black;
     justify-content: center;
@@ -88,7 +83,7 @@ img.logoImage {
 }
 .buttonRow {
     position: absolute;
-    top: 475px;
+    top: 550px;
     right: 90px;
     font-size: 25px !important;
 }
@@ -350,15 +345,21 @@ strong {
 .heading-title {
     padding-bottom: 5%;
 }
+.header-button {
+    position: relative;
+    top: 20px;
 
+}
 .page-header-title .heading-title {
-    margin-top: 5%;
+    position: relative;
+    top: 45px;
+    left: 25px;
     color: #676463;
-    font-size: 40px;
+    font-size: 38px;
     letter-spacing: 3px;
     font-family: Calibri(body);
     font-style: italic;
-    font-weight: 200;
+    font-weight: 400;
 }
 .secondHeader h2 {
     background-image: url("../img/images/picture1.jpg");
@@ -418,7 +419,7 @@ strong {
 
 /* Header Style 1*/
 #header-style-1 {
-    background-image: url("../img/images/cap_assy.gif");
+    background-image: url("../img/images/rodotech_assy.gif");
     background-size: cover;
     font: Calibri !important;
 }
@@ -3044,7 +3045,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 .text-primary2 {
     color: #984806 !important;
-    font-size: 20px !important;
+    font-size: 25px !important;
 }
 
 /* Carousels */

@@ -41,7 +41,7 @@ function addNavBar() {
                                             <a id="manuFacEngi" class="dropdown-item" href="manufacturing-engineering.html"><p class="navTextDropDown">Manufacturing Engineering</p></a>
                                             <a class="dropdown-item" href="documentation.html"><p class="navTextDropDown">Drafting and Documentation</p></a>
                                             <a class="dropdown-item" href="electrical.html"><p class="navTextDropDown">Electrical and Software</p></a>
-                                            <a class="dropdown-item" href="product-development-engineering.html"><p class="navTextDropDown">Product Development Engineering</p></a>
+                                            <a class="dropdown-item" href="product-development-engineering.html"><p class="navTextDropDown">Product Development <br /> Engineering</p></a>
                                             <a class="dropdown-item" href="controls-saftey.html"><p class="navTextDropDown">Controls and Saftey</p></a>
                                             <a class="dropdown-item" href="prototyping.html"><p class="navTextDropDown"></p></a>
                                         </div>
@@ -75,11 +75,11 @@ function addHeader() {
                 <img class=" mr-2 logoImage" src="./img/images/logo.png" alt="DR Logo">
             </div>
             <div class=" col-7 col-md-9 page-header-title row triangle">
-                <div class="col-8 col-md-8">
+                <div class="col-8 col-md-9">
                     <h3 class="heading-title text-center" style="font-family:Calibri">Value driven. Quality sustained.</h3>
                 </div>
-                <div class="col-4 col-md-4">
-                    <a href="contact.html" class="btn btn-danger my-4 ">Contact &#x27a4</a>
+                <div class="col-4 col-md-3 ">
+                    <a href="contact.html" class="btn btn-danger my-4 header-button ">Contact &#x27a4</a>
                 </div>
             </div>`);
 }
@@ -87,30 +87,45 @@ function addHeader() {
 function addFooter() {
     $(".loadFooter").prepend(`  <footer class="light-footer">
                         <div class="row justify-content-center footerCSS">
-                                <ul class="list-inline">
+                                       
+                                <ul class="list-inline" role="menu2">
                                     <li class="list-inline-item">
                                         <a class="" href="index.html"><p class="navText">HOME</p></a>
                                     </li>
                                     <li class="list-inline-item">
                                         <p class="navText">|</p>
                                     </li>
-                                    <li class="list-inline-item">
-                                        <a class=" click" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Engineering</p></a>
-                                        
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Engineering</p></a>
+                                        <div class="dropdown-menu dropdown-content dropDownMargin">
+                                            <a id="manuFacEngi" class="dropdown-item" href="manufacturing-engineering.html"><p class="navTextDropDown">Manufacturing Engineering</p></a>
+                                            <a class="dropdown-item" href="documentation.html"><p class="navTextDropDown">Drafting and Documentation</p></a>
+                                            <a class="dropdown-item" href="electrical.html"><p class="navTextDropDown">Electrical and Software</p></a>
+                                            <a class="dropdown-item" href="product-development-engineering.html"><p class="navTextDropDown">Product Development <br /> Engineering</p></a>
+                                            <a class="dropdown-item" href="controls-saftey.html"><p class="navTextDropDown">Controls and Saftey</p></a>
+                                            <a class="dropdown-item" href="prototyping.html"><p class="navTextDropDown"></p></a>
+                                        </div>
                                     </li>
                                     <li class="list-inline-item">
                                         <p class="navText">|</p>
                                     </li>
-                                    <li class="list-inline-item">
-                                        <a class=" click" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Staffing</p></a>
-                                        
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Staffing</p></a>
+                                        <div class="dropdown-menu dropdown-content dropDownMargin">
+                                            <a class="dropdown-item" href="core-employee-staffing.html"><p class="navTextDropDown">Core Staffing (short term)</p></a>
+                                            <a class="dropdown-item" href="traditional-contract-staffing.html"><p class="navTextDropDown">Traditional contract staffing</p></a>
+                                            <a class="dropdown-item" href="outsourcing.html"><p class="navTextDropDown">Outsource</p></a>
+                                        </div>
                                     </li>
                                     <li class="list-inline-item">
                                         <p class="navText">|</p>
                                     </li>
-                                    <li class="list-inline-item">
-                                        <a class=" click" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Company</p></a>
-                                        
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Company</p></a>
+                                        <div class="dropdown-menu dropdown-content dropDownMargin">
+                                            <a class="dropdown-item" href="about-dir.html"><p class="navTextDropDown">About DRI</p></a>
+                                            <a class="dropdown-item" href="careers.html"><p class="navTextDropDown">Careers</p></a>
+                                        </div>
                                     </li>
                                     <li class="list-inline-item">
                                         <p class="navText">|</p>
