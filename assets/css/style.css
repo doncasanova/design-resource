@@ -192,6 +192,11 @@ p.div-centered {
 
     background-color: #f1f1f1
 }
+
+.test2 {
+    height: 200px;
+    overflow: visible;
+}
 .zoom {
     transition: transform .2s; /* Animation */
     width: 200px;
