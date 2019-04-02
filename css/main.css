@@ -373,6 +373,18 @@ strong {
     padding: 5%;
     font-family: Calibri;
 }
+.secondHeaderElectrical h2 {
+    background-image: url("../img/images/elec-soft.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-position: contain;
+    color: #676463;
+    font-size: 50px;
+    letter-spacing: 3px;
+    padding: 5%;
+    font-family: Calibri;
+}
 
 .navbar-light .navbar-nav .nav-link {
   color: #fff;

@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\assets\\css",
+    "\\css",
+    "\\img",
+    "\\img\\images",
+    "\\js"
   ],
+  "SelectedNode": "\\manufacturing-engineering.html",
   "PreviewInSolutionExplorer": false
 }
