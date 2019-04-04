@@ -6,12 +6,10 @@ More Info: https://uideck.com/products/helium-ui-kit
 */
 img.logoImage {
     position: relative;
-    left: 25px;
+    left: 75px;
     display: block;
-    /*max-width: 230px;*/
     height: 140px;
     width: auto;
-    /*height: auto;*/
 }
 .test {
     background-color:black;

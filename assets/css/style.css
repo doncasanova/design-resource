@@ -293,9 +293,10 @@ img.softwareLogo3 {
 
 img.prodDevImg {
     position: relative;
+    bottom: 90px;
     display: block;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 280px;
 }
 .footerCSS {
     border-top-color: dimgray!important;
