@@ -1,8 +1,15 @@
 @media screen and (max-width: 360px) {
+    .navText {
+        font-size: 25px;
+        color: lightgray;
+        padding-top: 10px;
+        text-transform: uppercase;
+    }
     .page-header-title .heading-title {
-        margin-top: 5%;
+        position:relative;
+        top:0px;
         color: #676463;
-        font-size: 15px;
+        font-size: 12px;
         letter-spacing: 3px;
         font-family: Calibri(body);
         font-style: italic;

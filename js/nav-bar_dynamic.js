@@ -1,29 +1,25 @@
-var image = ["https://media0.giphy.com/media/270TRfaKb7axy/giphy.gif?cid=3640f6095c5b2c834731774377c4367f", "BalloonFestLasers3.jpg", "CATlasers.jpg", "clublasers1.jpg", "clublasers2.jpg", "EDCvegasLasers.jpg", "EDMlasers1.jpg", "EDMlasers2.jpg", "EDMlasers3.jpg", "SpaceNeedleLasers.jpg"];
-var path = "./images/";
 
 addHeader();
 addNavBar();
-addImage();
 addFooter();
 
-function addImage() {
-    image.sort(function (a, b) { return 0.5 - Math.random() });
-    for (i = 0; i < image.length; i++) {
-     
-        $(".insertImagesHere").append(`<div id="target" class=" imageContainer"><a href="#" class="" data-toggle="modal" data-target="#largeModal"><img class="imageStyle imageHover pointer"src= "${path}${image[i]}" alt="${path}${image[i]}" height="300" ></a></div>`);
-        var imageNumber = i;
-       
+
+
+function addHeader() {
+    $(".loadHeader").prepend(`  <div class="col-5 col-md-3">
+                <img class=" logoImage" src="./img/images/logo.jpg" alt="DR Logo">
+            </div>
+            <div id="headerRespond" class=" col-7 col-md-9 page-header-title row triangle">
+                <div class="col-7 col-md-9">
+                    <h3 class="heading-title text-center" style="font-family:Calibri">Value driven. Quality sustained.</h3>
+                </div>
+                <div class="col-5 col-md-3 ">
+                    <a href="contact.html" class="btn btn-danger my-4 header-button ">Contact &#x27a4</a>
+                </div>
+            </div>`);
 }
 
-}
 
-$(document).on("click", ".imageStyle", function (image) {
-   
-    $(".insertImagesHere").empty();
-    addImage();
-});
-
-//<a class="navbar-brand" href="index.html"><img src="${image[0]}" alt=""></a>
 function addNavBar() {
     $(".loadNavBar").prepend(`  <nav class="navbar navbar-expand-lg bg-faded navBarStyle">
                         <div class="container">
@@ -68,20 +64,6 @@ function addNavBar() {
                             </div>
                         </div>
                     </nav>`);
-}
-
-function addHeader() {
-    $(".loadHeader").prepend(`  <div class="col-3 col-md-3 text-right">
-                <img class=" mr-2 logoImage" src="./img/images/logo.jpg" alt="DR Logo">
-            </div>
-            <div id="headerRespond" class=" col-9 col-md-9 page-header-title row triangle">
-                <div class="col-10 col-md-9">
-                    <h3 class="heading-title text-center" style="font-family:Calibri">Value driven. Quality sustained.</h3>
-                </div>
-                <div class="col-2 col-md-3 ">
-                    <a href="contact.html" class="btn btn-danger my-4 header-button ">Contact &#x27a4</a>
-                </div>
-            </div>`);
 }
 
 function addFooter() {

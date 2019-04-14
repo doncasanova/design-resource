@@ -3895,12 +3895,12 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 
 .navbar-toggler {
     position:relative;
-    bottom:35px;
+    /*bottom:35px;*/
     padding: .25rem .75rem;
     font-size: 1.25rem;
     line-height: 1;
-    background-color: #495057;
-    border: 1px solid #444;
+    background-color: lightgray;
+    border: 1px solid;
     border-radius: .25rem
 }
 

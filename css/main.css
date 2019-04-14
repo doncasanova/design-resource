@@ -4875,12 +4875,10 @@ ul.nav-tabs li a {
 @media (max-width: 480px) {
 img.logoImage {
     position: relative;
-    top: 20px;
+    top: 5px;
     left: 20px;
     display: block;
-    max-width: 150px;
-    max-height: 47px;
-    width: auto;
+    width: 100px;
     height: auto;
 }
 
