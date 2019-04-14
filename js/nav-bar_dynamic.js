@@ -10,7 +10,7 @@ function addHeader() {
                 <img class=" logoImage" src="./img/images/logo.jpg" alt="DR Logo">
             </div>
             <div id="headerRespond" class=" col-7 col-md-9 page-header-title row triangle">
-                <div class="col-7 col-md-9">
+                <div class="col-7 col-md-9 d-flex justify-content-center">
                     <h3 class="heading-title text-center" style="font-family:Calibri">Value driven. Quality sustained.</h3>
                 </div>
                 <div class="col-5 col-md-3 ">
