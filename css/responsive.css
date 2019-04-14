@@ -62,6 +62,14 @@
         padding-top: 10px;
         text-transform: uppercase;
     }
+    .triangle {
+        background-color: white;
+    }
+    .navBarStyle {
+        background-color: #333333;
+        font-size: large;
+        color: darkgray;
+    }
 }
 @media screen and (min-width: 361px) and (max-width: 640px) {
     .page-header-title .heading-title {
@@ -135,5 +143,8 @@
         color: lightgray;
         padding-top: 10px;
         text-transform: uppercase;
+    }
+    .triangle {
+        
     }
 }

@@ -3894,6 +3894,8 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 }
 
 .navbar-toggler {
+    position:relative;
+    bottom:35px;
     padding: .25rem .75rem;
     font-size: 1.25rem;
     line-height: 1;

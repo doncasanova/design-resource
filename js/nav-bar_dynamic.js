@@ -1,7 +1,7 @@
 var image = ["https://media0.giphy.com/media/270TRfaKb7axy/giphy.gif?cid=3640f6095c5b2c834731774377c4367f", "BalloonFestLasers3.jpg", "CATlasers.jpg", "clublasers1.jpg", "clublasers2.jpg", "EDCvegasLasers.jpg", "EDMlasers1.jpg", "EDMlasers2.jpg", "EDMlasers3.jpg", "SpaceNeedleLasers.jpg"];
 var path = "./images/";
 
-addHeader();
+//addHeader();
 addNavBar();
 addImage();
 addFooter();
@@ -71,14 +71,14 @@ function addNavBar() {
 }
 
 function addHeader() {
-    $(".loadHeader").prepend(`  <div class="col-5 col-md-3 text-right">
+    $(".loadHeader").prepend(`  <div class="col-3 col-md-3 text-right">
                 <img class=" mr-2 logoImage" src="./img/images/logo.jpg" alt="DR Logo">
             </div>
-            <div class=" col-7 col-md-9 page-header-title row triangle">
-                <div class="col-8 col-md-9">
+            <div id="headerRespond" class=" col-9 col-md-9 page-header-title row triangle">
+                <div class="col-10 col-md-9">
                     <h3 class="heading-title text-center" style="font-family:Calibri">Value driven. Quality sustained.</h3>
                 </div>
-                <div class="col-4 col-md-3 ">
+                <div class="col-2 col-md-3 ">
                     <a href="contact.html" class="btn btn-danger my-4 header-button ">Contact &#x27a4</a>
                 </div>
             </div>`);
@@ -153,18 +153,31 @@ $(document).ready(function () {
 });
 
 //----------------------------------------------------------------
- //test functions
-function fireMouseOver() {
-    $(".dropdown").hover(function () {
-    $(this).css("background-color", "yellow");
-}, function () {
-    $(this).css("background-color", "pink");
+$(window).on("load, resize", function () {
+    var viewportWidth = $(window).width();
+    if (viewportWidth <= 360) {
+        $(".loadHeader").prepend(`  <div class="col-3 col-md-3 text-right">
+                <img class=" mr-2 logoImage" src="./img/images/logo.jpg" alt="DR Logo">
+            </div>
+            <div id="headerRespond" class=" col-9 col-md-9 page-header-title row triangle">
+                <div class="col-10 col-md-9">
+                    <h3 class="heading-title text-center" style="font-family:Calibri">Value driven. Quality sustained.</h3>
+                </div>
+                <div class="col-2 col-md-3 ">
+                    <a href="contact.html" class="btn btn-danger my-4 header-button ">Contact &#x27a4</a>
+                </div>
+            </div>`);
+    } else {
+        $(".loadHeader").prepend(`  <div class="col-3 col-md-3 text-right">
+                <img class=" mr-2 logoImage" src="./img/images/logo.jpg" alt="DR Logo">
+            </div>
+            <div id="headerRespond" class=" col-9 col-md-9 page-header-title row triangle">
+                <div class="col-10 col-md-9">
+                    <h3 class="heading-title text-center" style="font-family:Calibri">Value driven. Quality sustained.</h3>
+                </div>
+                <div class="col-2 col-md-3 ">
+                    <a href="contact.html" class="btn btn-danger my-4 header-button ">Contact &#x27a4</a>
+                </div>
+            </div>`);
+    }
 });
-}
-
-function removeClass() {
-    if ($(window).width() < 640) {
-        $('#indexMain').removeClass('flex-containerOuter1');
-    } 
-}
-//------------------------------------------------------------------
