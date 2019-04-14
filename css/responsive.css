@@ -98,6 +98,10 @@
     }
 }
 @media screen and (min-width: 413px) and (max-width: 640px) {
+    img.zoom {
+        width: 250px;
+        height: 100%;
+    }
     .page-header-title .heading-title {
         margin-top: 5%;
         color: #676463;
