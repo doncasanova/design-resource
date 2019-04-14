@@ -25,10 +25,10 @@ body {
     padding-top: 10px;
     text-transform: uppercase;
 }
+
 .navTextDropDown {
     font-size: 18px;
-    color: black;
-    padding-top: 10px;
+    color: black;    padding-top: 10px;
     text-transform: uppercase;
 }
 .navTextDropUp {
@@ -219,6 +219,7 @@ p.div-centeredCore {
         display: block;
         transform: scale(2.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     }
+
 img.electricalImg {
     position:relative;
     right: 200px;
