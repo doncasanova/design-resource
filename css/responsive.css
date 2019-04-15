@@ -1,4 +1,27 @@
 @media screen and (max-width: 420px) {
+    .text-primary {
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #984806 !important;
+        font-size: 18px !important;
+    }
+    #content {
+        padding-bottom: 10px;
+    }
+    p.div-centered {
+        font-size: 20px;
+        text-align: left;
+        margin: auto;
+    }
+    h4.div-centered {
+        margin-bottom: 10px!important;
+        text-align: left;
+        margin:auto;
+    }
+    .text-primary2 {
+        color: #984806 !important;
+        font-size: 25px !important;
+    }
     .test2 {
         height: 200px;
         overflow: visible;
