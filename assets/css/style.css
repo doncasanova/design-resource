@@ -301,7 +301,13 @@ img.softwareLogo3 {
     top: 50px;
     right: 50px;
 }
-
+.googleMap {
+    position: relative;
+    bottom: 90px;
+    display: block;
+    width: 100%;
+    height: 300px;
+}
 img.prodDevImg {
     position: relative;
     bottom: 90px;

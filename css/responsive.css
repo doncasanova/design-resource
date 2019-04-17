@@ -1,4 +1,72 @@
 @media screen and (max-width: 420px) {
+    .googleMap {
+        position: relative;
+        bottom: 90px;
+        display: block;
+        width: 100%;
+        height: 300px;
+    }
+    img.aboutImage {
+        position: relative;
+        left: 5px;
+        bottom: 0px;
+        display: block;
+        width: auto;
+        height: 200px;
+    }
+    img.coreImage {
+        position: relative;
+        bottom: 0px;
+        display: block;
+        width: auto;
+        height: 200px;
+    }
+    .responCore {
+        position: relative;
+        left: 20px !important;
+    }
+    h4.div-centeredCore {
+        text-align: left;
+        margin-left: 0px;
+        width: 70%;
+    }
+    p.div-centeredCore {
+        text-align: left;
+        margin-left: 0px;
+        width: 70%;
+    }
+    img.prodDevImg {
+        position: relative;
+        bottom: 0px;
+        display: block;
+        width: auto;
+        height: 200px;
+    }
+    .languagesCSS {
+        position: relative;
+        top: 20px;
+        right: 0px;
+    }
+    img.electricalImg2 {
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    img.electricalImg {
+        position: relative;
+        right: 0px;
+        top: 0px;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .wrapper {
+        background: #fff;
+        padding-bottom: 0px;
+    }
     .text-primary {
         padding-left: 20px;
         padding-right: 20px;
