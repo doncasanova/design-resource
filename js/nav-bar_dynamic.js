@@ -35,11 +35,10 @@ function addNavBar() {
                                         <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Engineering</p></a>
                                         <div class="dropdown-menu dropdown-content dropDownMargin">
                                             <a id="manuFacEngi" class="dropdown-item" href="manufacturing-engineering.html"><p class="navTextDropDown">Manufacturing Engineering</p></a>
-                                            <a class="dropdown-item" href="documentation.html"><p class="navTextDropDown">Drafting and Documentation</p></a>
-                                            <a class="dropdown-item" href="electrical.html"><p class="navTextDropDown">Electrical and Software</p></a>
                                             <a class="dropdown-item" href="product-development-engineering.html"><p class="navTextDropDown">Product Development <br /> Engineering</p></a>
+                                            <a class="dropdown-item" href="documentation.html"><p class="navTextDropDown">Drafting and Documentation</p></a>                                                                                     
                                             <a class="dropdown-item" href="controls-saftey.html"><p class="navTextDropDown">Controls and Saftey</p></a>
-                                            <a class="dropdown-item" href="prototyping.html"><p class="navTextDropDown"></p></a>
+                                            <a class="dropdown-item" href="electrical.html"><p class="navTextDropDown">Electrical and Software</p></a>
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown">
@@ -81,11 +80,10 @@ function addFooter() {
                                         <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Engineering</p></a>
                                         <div class="dropdown-menu dropup-content dropUpMargin">
                                             <a id="manuFacEngi" class="dropdown-item" href="manufacturing-engineering.html"><p class="navTextDropUp">Manufacturing Engineering</p></a>
-                                            <a class="dropdown-item" href="documentation.html"><p class="navTextDropUp">Drafting and Documentation</p></a>
-                                            <a class="dropdown-item" href="electrical.html"><p class="navTextDropUp">Electrical and Software</p></a>
                                             <a class="dropdown-item" href="product-development-engineering.html"><p class="navTextDropUp">Product Development <br /> Engineering</p></a>
+                                            <a class="dropdown-item" href="documentation.html"><p class="navTextDropUp">Drafting and Documentation</p></a> 
                                             <a class="dropdown-item" href="controls-saftey.html"><p class="navTextDropUp">Controls and Saftey</p></a>
-                                            <a class="dropdown-item" href="prototyping.html"><p class="navTextDropUp"></p></a>
+                                            <a class="dropdown-item" href="electrical.html"><p class="navTextDropUp">Electrical and Software</p></a>
                                         </div>
                                     </li>
                                     <li class="list-inline-item">
