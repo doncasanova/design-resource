@@ -76,8 +76,12 @@
     #content {
         padding-bottom: 10px;
     }
-    p.div-centered {
+    /*p.div-centered {
         font-size: 20px;
+        text-align: left;
+        margin: auto;
+    }*/
+    ul.div-centered {
         text-align: left;
         margin: auto;
     }
