@@ -1,4 +1,9 @@
 @media screen and (max-width: 420px) {
+    .footerCSS {
+        border-top-color: dimgray !important;
+        border-top: 10px !important;
+        width: auto;
+    }
     .googleMap {
         position: relative;
         bottom: 90px;
