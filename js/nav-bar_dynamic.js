@@ -67,9 +67,14 @@ function addNavBar() {
 
 function addFooter() {
     $(".loadFooter").prepend(`  <footer class="light-footer">
-                        <div class="row justify-content-center footerCSS">
+                    
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse2" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                    <div class="collapse navbar-collapse justify-content-center " id="navbarCollapse2">
+                        <div class="justify-content-center footerCSS">
                                        
-                                <ul class="list-inline" role="menu2">
+                                <ul class="list-inline respons" role="menu2">
                                     <li class="list-inline-item">
                                         <a class="" href="index.html"><p class="navText">HOME</p></a>
                                     </li>
@@ -117,6 +122,7 @@ function addFooter() {
                                         <p class=" text-light">&#169; 2019 DESIGN RESOURCE, INC.</p>
                                     </div>
                                </ul>
+                            </div>
                         </div>
                         
                     </footer>`);
