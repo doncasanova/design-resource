@@ -14,4 +14,4 @@ $('body')
     .on('click', '.dropdown-menu a', toggleDropdown);
 
 /* not needed, prevents page reload for SO example on menu link clicked */
-$('.dropdown a').on('click tap', e => e.preventDefault())
+$('.dropdown a').on('click tap', e => e.preventDefault());

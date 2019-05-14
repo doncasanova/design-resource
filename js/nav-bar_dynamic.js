@@ -67,14 +67,9 @@ function addNavBar() {
 
 function addFooter() {
     $(".loadFooter").prepend(`  <footer class="light-footer">
-                    
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse2" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                                <i class="fa fa-bars"></i>
-                            </button>
-                    <div class="collapse navbar-collapse justify-content-center " id="navbarCollapse2">
-                        <div class="justify-content-center footerCSS">
+                        <div class="row justify-content-center footerCSS">
                                        
-                                <ul class="list-inline respons" role="menu2">
+                                <ul class="list-inline" role="menu2">
                                     <li class="list-inline-item">
                                         <a class="" href="index.html"><p class="navText">HOME</p></a>
                                     </li>
@@ -85,10 +80,11 @@ function addFooter() {
                                         <a class="nav-link" href="engineering.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><p class="navText">Engineering</p></a>
                                         <div class="dropdown-menu dropup-content dropUpMargin">
                                             <a id="manuFacEngi" class="dropdown-item" href="manufacturing-engineering.html"><p class="navTextDropUp">Manufacturing Engineering</p></a>
-                                            <a class="dropdown-item" href="product-development-engineering.html"><p class="navTextDropUp">Product Development <br /> Engineering</p></a>
-                                            <a class="dropdown-item" href="documentation.html"><p class="navTextDropUp">Drafting and Documentation</p></a> 
-                                            <a class="dropdown-item" href="controls-saftey.html"><p class="navTextDropUp">Controls and Saftey</p></a>
+                                            <a class="dropdown-item" href="documentation.html"><p class="navTextDropUp">Drafting and Documentation</p></a>
                                             <a class="dropdown-item" href="electrical.html"><p class="navTextDropUp">Electrical and Software</p></a>
+                                            <a class="dropdown-item" href="product-development-engineering.html"><p class="navTextDropUp">Product Development <br /> Engineering</p></a>
+                                            <a class="dropdown-item" href="controls-saftey.html"><p class="navTextDropUp">Controls and Saftey</p></a>
+                                            <a class="dropdown-item" href="prototyping.html"><p class="navTextDropUp"></p></a>
                                         </div>
                                     </li>
                                     <li class="list-inline-item">
@@ -122,48 +118,30 @@ function addFooter() {
                                         <p class=" text-light">&#169; 2019 DESIGN RESOURCE, INC.</p>
                                     </div>
                                </ul>
-                            </div>
                         </div>
                         
                     </footer>`);
 }
 
-$(document).ready(function () {
-    $(".click").click(function () {
-        $('html, body').animate({
-            scrollTop: $(".dropdown").offset().top
-        }, 2000);
-        //fireMouseOver();
-    });
+//$(document).ready(function () {
+//    $(".click").click(function () {
+//        $('html, body').animate({
+//            scrollTop: $(".dropdown").offset().top
+//        }, 2000);
+       
+//    });
    
-});
+//});
 
 //----------------------------------------------------------------
-//$(window).on("load, resize", function () {
-//    var viewportWidth = $(window).width();
-//    if (viewportWidth <= 360) {
-//        $(".loadHeader").prepend(`  <div class="col-3 col-md-3 text-right">
-//                <img class=" mr-2 logoImage" src="./img/images/logo.jpg" alt="DR Logo">
-//            </div>
-//            <div id="headerRespond" class=" col-9 col-md-9 page-header-title row triangle">
-//                <div class="col-10 col-md-9">
-//                    <h3 class="heading-title text-center" style="font-family:Calibri">Value driven. Quality sustained.</h3>
-//                </div>
-//                <div class="col-2 col-md-3 ">
-//                    <a href="contact.html" class="btn btn-danger my-4 header-button ">Contact &#x27a4</a>
-//                </div>
-//            </div>`);
-//    } else {
-//        $(".loadHeader").prepend(`  <div class="col-3 col-md-3 text-right">
-//                <img class=" mr-2 logoImage" src="./img/images/logo.jpg" alt="DR Logo">
-//            </div>
-//            <div id="headerRespond" class=" col-9 col-md-9 page-header-title row triangle">
-//                <div class="col-10 col-md-9">
-//                    <h3 class="heading-title text-center" style="font-family:Calibri">Value driven. Quality sustained.</h3>
-//                </div>
-//                <div class="col-2 col-md-3 ">
-//                    <a href="contact.html" class="btn btn-danger my-4 header-button ">Contact &#x27a4</a>
-//                </div>
-//            </div>`);
+//$(window).resize(function () {
+//    console.log('resize called');
+//    var width = $(window).width();
+//    if (width >= 200 && width <= 420) {
+//        $('#footerClass').removeClass('loadFooter').addClass('loadFooterSmall');
 //    }
-//});
+//    else {
+//        $('#footerClass').removeClass('loadFooterSmall').addClass('loadFooter');
+//    }
+//})
+    
