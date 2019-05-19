@@ -5,7 +5,7 @@ $(document).ready(function () {
     is_firefox = navigator.userAgent.indexOf('Firefox') > -1;
     is_safari = navigator.userAgent.indexOf("Safari") > -1;
     is_opera = navigator.userAgent.indexOf("Presto") > -1;
-    is_mac = (navigator.userAgent.indexOf('Mac OS') != -1);
+    is_mac = (navigator.userAgent.indexOf('Mac OS') !== -1);
     is_windows = !is_mac;
 
     if (is_chrome && is_safari) {
