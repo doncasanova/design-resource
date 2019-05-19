@@ -9,6 +9,11 @@
         font-weight: 200;
         /*color: red !important;*/
     }
+    footer ul {
+        position: relative;
+        left: 10px;
+    }
+
     footer li {
         position: relative;
         left: 25px;
