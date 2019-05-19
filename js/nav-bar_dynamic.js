@@ -112,7 +112,7 @@ function addFooter() {
                                         <p class="navText">|</p>
                                     </li>
                                     <li class="list-inline-item">
-                                        <a class=""  mr-4 p-3" href="contact.html"><p class="navText">Contact</p></a>
+                                        <a class="contactFont"  mr-4 p-3" href="contact.html"><p class="navText contactFont">Contact</p></a>
                                     </li>
                                     <div class="row justify-content-center">
                                         <p class=" text-light">&#169; 2019 DESIGN RESOURCE, INC.</p>
