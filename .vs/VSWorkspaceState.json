@@ -5,9 +5,9 @@
     "\\assets\\css",
     "\\css",
     "\\img",
-    "\\img\\images",
-    "\\js"
+    "\\js",
+    "\\php"
   ],
-  "SelectedNode": "\\css\\main.css",
+  "SelectedNode": "\\contact.html",
   "PreviewInSolutionExplorer": false
 }
