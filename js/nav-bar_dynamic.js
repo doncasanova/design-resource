@@ -132,7 +132,7 @@ function addFooter() {
                                         </div>
                                     </li>
                                     <li class="list-inline-item">
-                                        <p class="navText">|</p>
+                                        <p class="navText hideText">|</p>
                                     </li>
                                     <li class="list-inline-item">
                                         <a class="contactFont"  mr-4 p-3" href="contact.html"><p class="navText contactFont">Contact</p></a>
