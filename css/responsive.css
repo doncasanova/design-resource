@@ -1,7 +1,10 @@
 
 @media screen and (max-width: 361px) {
-    li .hideText{
-        color: transparent!important;
+    .aboutText{
+        margin-left:50px!important;
+    }
+    li .hideText {
+        color: transparent !important;
     }
 
     li .contactFont {
@@ -244,8 +247,11 @@
     }
 }
 
-}
+
     @media screen and (min-width: 362px) and (max-width: 420px) {
+        .aboutText {
+            margin-left: 50px !important;
+        }
         footer li {
             position: relative;
             left: 0px;
@@ -476,7 +482,7 @@
         }
     }
 
-    @media screen and (min-width: 362px) and (max-width: 640px) {
+    /*@media screen and (min-width: 362px) and (max-width: 640px) {
         img.zoom {
             width: 250px;
             height: 100%;
@@ -557,4 +563,4 @@
 
         .triangle {
         }
-    }
+    }*/
