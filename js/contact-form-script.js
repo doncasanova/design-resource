@@ -1,3 +1,5 @@
+
+
 $("#contactForm").validator().on("submit", function (event) {
     if (event.isDefaultPrevented()) {
         // handle the invalid form...
@@ -10,12 +12,11 @@ $("#contactForm").validator().on("submit", function (event) {
     }
 });
 
-
 function submitForm(){
     // Initiate Variables With Form Content
     var name = $("#name").val();
     var email = $("#email").val();
-    var msg_subject = $("#msg_subject").val();
+    var msg_subject = $("#test").val();
     var message = $("#message").val();
 
 
@@ -24,7 +25,7 @@ function submitForm(){
         url: "php/form-process.php",
         data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
         success : function(text){
-            if (text == "success"){
+            if (text === "success"){
                 formSuccess();
             } else {
                 formError();
@@ -34,9 +35,9 @@ function submitForm(){
     });
 }
 
-function formSuccess(){
+function formSuccess() {
     $("#contactForm")[0].reset();
-    submitMSG(true, "Message Submitted!")
+    submitMSG(true, "Message Submitted!");
 }
 
 function formError(){
