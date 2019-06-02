@@ -248,13 +248,26 @@
 }
 
 
-    @media screen and (min-width: 362px) and (max-width: 420px) {
+    @media screen and (min-width: 362px) and (max-width: 413px) {
         .aboutText {
             margin-left: 50px !important;
         }
+        li .hideText {
+            color: transparent !important;
+        }
+        li .contactFont {
+            font-size: 20px;
+            font-weight: 200;
+            /*color: red !important;*/
+        }
+        footer ul {
+            position: relative;
+            left: 10px;
+        }
+
         footer li {
             position: relative;
-            left: 0px;
+            left: 25px;
             padding: 0;
         }
 
@@ -352,11 +365,6 @@
         #content {
             padding-bottom: 10px;
         }
-        /*p.div-centered {
-        font-size: 20px;
-        text-align: left;
-        margin: auto;
-    }*/
         ul.div-centered {
             text-align: left;
             margin: auto;
@@ -482,85 +490,253 @@
         }
     }
 
-    /*@media screen and (min-width: 362px) and (max-width: 640px) {
-        img.zoom {
-            width: 250px;
-            height: 100%;
-        }
+@media screen and (min-width: 414px) and (max-width: 420px) {
+    img.main3 {
+        position: relative;
+        left: 40px;
+        max-width: 100%;
+        height: 250px;
+    }
+    .aboutText {
+        margin-left: 50px !important;
+    }
 
-        .page-header-title .heading-title {
-            margin-top: 5%;
-            color: #676463;
-            font-size: 15px;
-            letter-spacing: 3px;
-            font-family: Calibri(body);
-            font-style: italic;
-            font-weight: 200;
-        }
+    li .hideText {
+        color: transparent !important;
+    }
 
-        .fontType {
-            font-size: 15px;
-            margin-left: 0;
-            padding: 0px;
-            line-height: .9;
-        }
+    li .contactFont {
+        font-size: 25px;
+        font-weight: 200;
+        /*color: red !important;*/
+    }
 
-        .fontType3 {
-            font: Calibri !important;
-            color: white;
-            font-size: 25px;
-            font-weight: bold;
-            line-height: 1.0;
-        }
+    footer ul {
+        position: relative;
+        left: 5px;
+    }
 
-        .fontType2 {
+    footer li {
+        position: relative;
+        left: 25px;
+        padding: 0;
+    }
+
+    footer p {
+        padding: 0;
+        font-weight: 100;
+    }
+
+    .googleMap {
+        position: relative;
+        bottom: 90px;
+        display: block;
+        width: 100%;
+        height: 300px;
+    }
+
+    img.aboutImage {
+        position: relative;
+        left: 5px;
+        bottom: 0px;
+        display: block;
+        width: auto;
+        height: 200px;
+    }
+
+    img.coreImage {
+        position: relative;
+        bottom: 0px;
+        display: block;
+        width: auto;
+        height: 200px;
+    }
+
+    .responCore {
+        position: relative;
+        left: 20px !important;
+    }
+
+    h4.div-centeredCore {
+        text-align: left;
+        margin-left: 0px;
+        width: 70%;
+    }
+
+    p.div-centeredCore {
+        text-align: left;
+        margin-left: 0px;
+        width: 70%;
+    }
+
+    img.prodDevImg {
+        position: relative;
+        bottom: 0px;
+        display: block;
+        width: auto;
+        height: 200px;
+    }
+
+    .languagesCSS {
+        position: relative;
+        top: 20px;
+        right: 0px;
+    }
+
+    img.electricalImg2 {
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    img.electricalImg {
+        position: relative;
+        right: 0px;
+        top: 0px;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .wrapper {
+        background: #fff;
+        padding-bottom: 0px;
+    }
+
+    .text-primary {
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #984806 !important;
+        font-size: 18px !important;
+    }
+
+    #content {
+        padding-bottom: 10px;
+    }
+    ul.div-centered {
+        text-align: left;
+        margin: auto;
+    }
+
+    h4.div-centered {
+        margin-bottom: 10px !important;
+        text-align: left;
+        margin: auto;
+    }
+
+    .text-primary2 {
+        color: #984806 !important;
+        font-size: 25px !important;
+    }
+
+    .test2 {
+        height: 200px;
+        overflow: visible;
+    }
+
+    .zoom {
+        transition: transform .2s; /* Animation */
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+        .zoom:hover {
             position: relative;
-            top: 40px;
-            font: Calibri !important;
-            color: dimgrey;
-            font-size: medium;
-        }
-
-        #headers .header-content {
-            padding: 10px 0;
-        }
-
-        .buttonRow {
-            position: absolute;
-            top: 545px;
-            right: 140px;
-            font-size: 15px !important;
-        }
-
-        img.softwareLogo1 {
+            /*left:100px;*/
+            z-index: 999;
             display: block;
-            max-width: 75px;
-            max-height: 75px;
-            width: auto;
-            height: auto;
+            transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
         }
 
-        img.softwareLogo2 {
-            display: block;
-            width: auto;
-            height: auto;
-        }
+    img.zoom {
+        width: 250px;
+        height: 100%;
+    }
 
-        img.softwareLogo3 {
-            display: block;
-            max-width: 75px;
-            max-height: 50px;
-            width: auto;
-            height: auto;
-        }
+    .page-header-title .heading-title {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        color: #676463;
+        font-size: 16px;
+        letter-spacing: 3px;
+        font-family: Calibri(body);
+        font-style: italic;
+        font-weight: 600;
+    }
 
-        .navText {
-            font-size: 12px;
-            color: lightgray;
-            padding-top: 10px;
-            text-transform: uppercase;
-        }
+    .fontType {
+        font-size: 15px;
+        margin-left: 0;
+        padding: 0px;
+        line-height: .9;
+    }
 
-        .triangle {
-        }
-    }*/
+    .fontType3 {
+        font: Calibri !important;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 1.0;
+    }
+
+    .fontType2 {
+        position: relative;
+        top: 40px;
+        font: Calibri !important;
+        color: dimgrey;
+        font-size: medium;
+    }
+
+    #headers .header-content {
+        padding: 10px 0;
+    }
+
+    .buttonRow {
+        position: absolute;
+        top: 545px;
+        right: 135px;
+        font-size: 15px !important;
+    }
+
+    img.softwareLogo1 {
+        display: block;
+        max-height: 100px;
+        width: auto;
+    }
+
+    img.softwareLogo2 {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    img.softwareLogo3 {
+        position: relative;
+        top: 20px;
+        display: block;
+        max-height: 100px;
+        width: auto;
+    }
+
+    .navText {
+        font-size: 18px;
+        color: lightgray;
+        padding-top: 10px;
+        text-transform: uppercase;
+    }
+
+    .triangle {
+        background-color: white;
+    }
+
+    .navBarStyle {
+        background-color: #333333;
+        font-size: large;
+        color: darkgray;
+    }
+}
